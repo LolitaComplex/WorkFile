@@ -1,0 +1,76 @@
+{
+    "dm_error": 0,
+    "error_msg": "操作成功",
+    "mods": [
+        {
+            "type": 1,
+            "text_info": {
+                "tip": "友聚、时长较短的直播不予以保留",
+                "title": "直播时长超过99%的用户！"
+            }
+        },
+        {
+            "type": 2,
+            "anchor_center": "https://testqaboc.inke.cn/react/innerapp/anchor-center/entry/index.html?from=me&inkewtype=web&inkewid=anchor_center_entry&inkewname=anchor_center_entry&isWebFullScreen=true&isBatteryWhite=true&isShowCustomNavBar=true&isSwipeBack=false&isWebViewBack=false",
+            "growth_info": {
+                "dm_error": 0,
+                "error_msg": "操作成功",
+                "data": {
+                    "dis_score": 516,
+                    "level": 32,
+                    "score": 7990,
+                    "uid": 12030647
+                }
+            }
+        },
+        {
+            "type": 3,
+            "live_list_url": "https://testqaboc.inke.cn/react/innerapp/anchor-center/entry/index.html?from=me&inkewtype=web&inkewid=anchor_center_entry&inkewname=anchor_center_entry&isWebFullScreen=true&isBatteryWhite=true&isShowCustomNavBar=true&isSwipeBack=false&isWebViewBack=false",
+            "live_info": {
+                "gold_num": 0,
+                "like_num": 0,
+                "openStore": 0,
+                "silver_num": 0,
+                "viewd_num": 542,
+                "live_dura_time": 1628,
+                "room_chat_num": 0,
+                "attention_num": 0
+            }
+        },
+        {
+            "type": 4,
+            "rank_info": {
+                "gift": {
+                    "bill_total": 0,
+                    "contributions": [],
+                    "count": 0,
+                    "dm_error": 0,
+                    "error_msg": "操作成功",
+                    "sender_total": 0,
+                    "start": 0
+                },
+                "new_follow": {
+                    "dm_error": 0,
+                    "error_msg": "操作成功",
+                    "statement": "新增关注",
+                    "total": 0,
+                    "users": []
+                },
+                "old_follow": {
+                    "dm_error": 0,
+                    "error_msg": "操作成功",
+                    "statement": "陪你最久",
+                    "total": 0,
+                    "users": []
+                }
+            }
+        },
+        {
+            "type": 6,
+            "guide_info": {
+                "img_url": "https://img.ikstatic.cn/MTU4Nzg4ODkyNzUzMSM1OTMjcG5n.png",
+                "link": "https://boc.inke.cn/innerapp/new-user-guide/index.html?from=endvideo&inkewtype=web&inkewid=new-user-guide-201903&inkewname=new-user-guide-201903&iksonic=1"
+            }
+        }
+    ]
+}

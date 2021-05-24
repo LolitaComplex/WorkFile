@@ -1,0 +1,14 @@
+{
+	"dm_error": 0,
+	"error_msg": "操作成功",
+	"task_id": 21,
+	"task_type": 2,
+	"uid": 700010145,
+	"award": [{
+		"award_id": 30004,
+		"award_name": "映豆",
+		"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+		"award_num": 1,
+		"award_pr": 1
+	}]
+}

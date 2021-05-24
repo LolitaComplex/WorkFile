@@ -1,0 +1,1 @@
+/data/user_de/0/com.android.shell/files/bugreports/bugreport-OnePlus7TPro_CH-QKQ1.190716.003-2020-06-29-20-53-27.zip: 1 file pulled, 0 skipped. 37.5 MB/s (11993666 bytes in 0.305s)

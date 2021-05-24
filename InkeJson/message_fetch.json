@@ -1,0 +1,139 @@
+{
+    "dm_error": 0,
+    "error_msg": "",
+    "message_error": "",
+    "next_msg_id": 1486741330000076500,
+    "next_version_id": 1579083733000001,
+    "msgs": [
+        {
+            "owner_id": 511036485,
+            "receive_id": 511036485,
+            "peer_id": 511036485,
+            "msgid": 1486741330000076500,
+            "type": 7,
+            "is_sender": 1,
+            "content": {
+                "card_content": {
+                    "url": "https://www.baidu.com?web_entrance_id=4",
+                    "text": "baidu-http",
+                    "content": "baidu"
+                },
+                "style": {
+                    "in_icon": "",
+                    "out_icon": ""
+                }
+            },
+            "create_time": 1579083733,
+            "update_time": 1579083733,
+            "seq_id": 1579083733510,
+            "version_id": 1579083733000001,
+            "has_read": 1,
+            "sort_key": 1579083733000001,
+            "action": {
+                "url": "",
+                "text": "",
+                "tips": "",
+                "tic": ""
+            }
+        },
+        {
+            "owner_id": 511036485,
+            "receive_id": 511036485,
+            "peer_id": 511036485,
+            "msgid": 1486748260000086500,
+            "type": 7,
+            "is_sender": 1,
+            "content": {
+                "card_content": {
+                    "url": "https://h5.inke.cn",
+                    "text": "h5-inke-http",
+                    "content": "h5-inke-http"
+                },
+                "style": {
+                    "in_icon": "",
+                    "out_icon": ""
+                }
+            },
+            "create_time": 1579084426,
+            "update_time": 1579084426,
+            "seq_id": 1579084426774,
+            "version_id": 1579084426000001,
+            "has_read": 1,
+            "sort_key": 1579084426000001,
+            "action": {
+                "url": "",
+                "text": "",
+                "tips": "",
+                "tic": ""
+            }
+        },
+        {
+            "owner_id": 511036485,
+            "receive_id": 511036485,
+            "peer_id": 511036485,
+            "msgid": 1486753520000076500,
+            "type": 7,
+            "is_sender": 1,
+            "content": {
+                "card_content": {
+                    "url": "inke://pname=web&url=https%3A%2F%2Fwww.baidu.com",
+                    "text": "inke-pname-baidu",
+                    "content": "inke-pname-baidu"
+                },
+                "style": {
+                    "in_icon": "",
+                    "out_icon": ""
+                }
+            },
+            "create_time": 1579084952,
+            "update_time": 1579084952,
+            "seq_id": 1579084952250,
+            "version_id": 1579084952000001,
+            "has_read": 1,
+            "sort_key": 1579084952000001,
+            "action": {
+                "url": "",
+                "text": "",
+                "tips": "",
+                "tic": ""
+            }
+        },
+        {
+            "owner_id": 511036485,
+            "receive_id": 511036485,
+            "peer_id": 511036485,
+            "msgid": 1486755050000126500,
+            "type": 7,
+            "is_sender": 1,
+            "content": {
+                "card_content": {
+                    "url": "inke://pname=web&url=https%3A%2F%2Fh5.inke.cn",
+                    "text": "inke-pname-h5inke",
+                    "content": "inke-pname-h5inke"
+                },
+                "style": {
+                    "in_icon": "",
+                    "out_icon": ""
+                }
+            },
+            "create_time": 1579085105,
+            "update_time": 1579085105,
+            "seq_id": 1579085105444,
+            "version_id": 1579085105000001,
+            "has_read": 1,
+            "sort_key": 1579085105000001,
+            "action": {
+                "url": "",
+                "text": "",
+                "tips": "",
+                "tic": ""
+            }
+        }
+    ],
+    "has_more": 0,
+    "is_risk": {
+        "risk": 0,
+        "need_pop": 0,
+        "pop_tips": ""
+    }
+}

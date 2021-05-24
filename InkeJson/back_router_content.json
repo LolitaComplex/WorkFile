@@ -1,0 +1,33 @@
+{
+	"data": {
+        "delay": 5,
+        "type": "source_url",
+        "pname": [
+            "hallhot"
+        ],
+        "activity": [
+            "MainActivity"
+        ],
+        "data": [
+            {
+                 "source": "vivo",
+                 "backNameField":"btn_name",
+                 "backUrlField":"backurl" 
+             },
+             {
+                 "source": "oppo",
+                 "backNameField":"btn_name",
+                 "backUrlField":"back_url" 
+             },
+             {
+                 "source": "baidu",
+                 "backNameField":"btn_name",
+                 "backUrlField":"backurl" 
+             }
+         ]
+    },
+	"dm_error": 0,
+	"error_msg": "操作成功",
+	"status": "ok",
+	"version": "1594881930"
+}

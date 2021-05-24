@@ -1,0 +1,24 @@
+{
+	"dm_error": 0,
+	"error_msg": "成功",
+	"data": {
+		"close_recommend_anchor": {
+			"switch": 
+		},
+		"creator_invite": {
+			"switch": 0
+		},
+		"finish_userinfo_test": 0,
+		"out_live_attention": {
+			"status": 1,
+			"show_time": 180,
+			"content": "关注主播不迷路~",
+			"background": "https://img.ikstatic.cn/MTU2NzY4NjAxODE2MiM4MzkjcG5n.png",
+			"quit_attention": "关注并退出",
+			"quit": "狠心离开"
+		},
+		"qr_code": {
+			"url": "https://img.ikstatic.cn/MTU4MzMwOTQzNDMwNiMzMjgjcG5n.png"
+		}
+	}
+}

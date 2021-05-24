@@ -1,0 +1,8 @@
+{
+	"dm_error": 0,
+	"error_msg": "成功",
+    "data": {
+        "wheel": 1,
+	    "hamster": 1
+    }
+}

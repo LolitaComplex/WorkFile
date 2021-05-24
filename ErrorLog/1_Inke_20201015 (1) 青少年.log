@@ -1,0 +1,762 @@
+~~~~~ begin of mmap ~~~~~
+^^^^^^^^^^Aug 28 2019^^^20:17:18^^^^^^^^^^[12391,12443][2020-10-15 +0800 17:24:27]
+get mmap time: 1
+MARS_URL: 
+MARS_PATH: 
+MARS_REVISION: 
+MARS_BUILD_TIME: 2019-08-28 20:17:12
+MARS_BUILD_JOB: 
+log appender mode:0, use mmap:1
+cache dir space info, capacity:55291695104 free:27500318720 available:27349323776
+log dir space info, capacity:55291695104 free:27500318720 available:27349323776
+[I][2020-10-15 +8.0 17:24:27.008][12391, 12443][Ingkee][, , 0][-- Ingkee Logger Recorder Init --
+[I][2020-10-15 +8.0 17:24:27.135][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.base.BaseComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.135][12391, 12443][Ingkee][, , 0][startLogNetWorCheckTimer 开始timer
+[I][2020-10-15 +8.0 17:24:27.136][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.channelconfig.ChannelConfigComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.136][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.loadsocomponent.LoadSoComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.136][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.atomcomponent.AtomComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.136][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.storagecomponent.StorageComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.136][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.routercomponent.RouterComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.136][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.serviceinfo.ServerInfoComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.138][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.deviceidcomponent.DeviceIdComponent afterAppOnCreate cost: 2ms
+[I][2020-10-15 +8.0 17:24:27.138][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.track.TrackerComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.139][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.LoginComponent afterAppOnCreate cost: 1ms
+[I][2020-10-15 +8.0 17:24:27.139][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.userinfocomponent.UserInfoComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.139][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.ingkeeconfigcomponent.IngKeeConfigComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.165][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.monitorcomponent.MonitorComponent afterAppOnCreate cost: 26ms
+[I][2020-10-15 +8.0 17:24:27.168][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.webkit.InkeWebComponent afterAppOnCreate cost: 3ms
+[I][2020-10-15 +8.0 17:24:27.168][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.reddot.RedDotComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.170][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.legacy.LegacyComponent afterAppOnCreate cost: 2ms
+[I][2020-10-15 +8.0 17:24:27.170][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.InkeCommandComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.170][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.verification.VerificationComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.171][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.conn.ConnectionComponent afterAppOnCreate cost: 1ms
+[I][2020-10-15 +8.0 17:24:27.185][12391, 12439][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.188][12391, 12433][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.193][12391, 12451][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.195][12391, 12439][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.203][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.legacy.AppCoreComponent afterAppOnCreate cost: 32ms
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.fresco.FrescoComponent afterAppOnCreate cost: 9ms
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.update.UpdateComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][--------APP START----------
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) APP VERSION CODE: 1
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) APP VERSION NAME: 1.0
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) APP ENV : 0
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) Processor count: 8
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Brand: Xiaomi
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Sdk Version: 26
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Display: OPR1.170623.027
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Manufacture: Xiaomi
+[I][2020-10-15 +8.0 17:24:27.213][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Model: MIX 2
+[I][2020-10-15 +8.0 17:24:27.214][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Serial: ec61675d
+[I][2020-10-15 +8.0 17:24:27.214][12391, 12391][Ingkee][, , 0][(BASE_INFO) Device Supported ABI: [arm64-v8a, armeabi-v7a, armeabi]
+[I][2020-10-15 +8.0 17:24:27.214][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.mechanism.recorder.RecorderComponent afterAppOnCreate cost: 1ms
+[I][2020-10-15 +8.0 17:24:27.214][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.gesture.track.GestureTrackComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.216][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.room.ui.RoomComponent afterAppOnCreate cost: 2ms
+[I][2020-10-15 +8.0 17:24:27.217][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.increase.IncreaseComponent afterAppOnCreate cost: 1ms
+[I][2020-10-15 +8.0 17:24:27.217][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.main.notification.DynamicNotifyComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.217][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.user.UserComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.218][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.game.GameComponent afterAppOnCreate cost: 1ms
+[I][2020-10-15 +8.0 17:24:27.218][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.commercial.CommercialComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.218][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.wxapi.WechatComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.218][12391, 12391][Ingkee][, , 0][[push component] 进程启动注册推送服务
+[I][2020-10-15 +8.0 17:24:27.222][12391, 12453][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.235][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.PushComponent afterAppOnCreate cost: 17ms
+[I][2020-10-15 +8.0 17:24:27.235][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.XfComponent afterAppOnCreate cost: 0ms
+[E][2020-10-15 +8.0 17:24:27.237][12391, 12391][Ingkee][, , 0][ReactFrescoConfig ImagePipelineConfig.Builder not null
+[I][2020-10-15 +8.0 17:24:27.243][12391, 12391][Ingkee][, , 0][ReactApplication warmUp cost: 8ms
+[I][2020-10-15 +8.0 17:24:27.244][12391, 12433][Ingkee][, , 0][------- REACT INFO --------
+[I][2020-10-15 +8.0 17:24:27.244][12391, 12433][Ingkee][, , 0][(react) BuiltIn Bundle Version: 105
+[I][2020-10-15 +8.0 17:24:27.244][12391, 12433][Ingkee][, , 0][(react) Local Latest Bundle: null
+[I][2020-10-15 +8.0 17:24:27.244][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.ReactComponent afterAppOnCreate cost: 9ms
+[I][2020-10-15 +8.0 17:24:27.245][12391, 12391][appInit:true][, , 0][Component: com.ingkee.gift.continuegiftguide.ContinueGiftGuideComponent afterAppOnCreate cost: 1ms
+[I][2020-10-15 +8.0 17:24:27.245][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.diagnosecomponent.NetworkDiagnoseComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.247][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.component.UserCenterComponent afterAppOnCreate cost: 2ms
+[I][2020-10-15 +8.0 17:24:27.257][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.dynamiccomponent.DynamicComponent afterAppOnCreate cost: 10ms
+[I][2020-10-15 +8.0 17:24:27.258][12391, 12391][Ingkee][, , 0][GreetGuide:oldHasDeal:false
+[I][2020-10-15 +8.0 17:24:27.258][12391, 12391][Ingkee][, , 0][GreetGuide:login
+[I][2020-10-15 +8.0 17:24:27.259][12391, 12391][Ingkee][, , 0][GreetGuide:oldHasDeal:false
+[I][2020-10-15 +8.0 17:24:27.259][12391, 12391][Ingkee][, , 0][IMChatDataManager: initSwitch
+[I][2020-10-15 +8.0 17:24:27.270][12391, 12451][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.275][12391, 12439][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.276][12391, 12391][Ingkee][, , 0][unread_log:appCreate
+[I][2020-10-15 +8.0 17:24:27.305][12391, 12449][QuickStartException][, , 0][LegacyComponment_initComponentCreateNeedConfirm ChannelConfigService = null
+[I][2020-10-15 +8.0 17:24:27.319][12391, 12391][Ingkee][, , 0][unread_log:getChatListEntrance
+[I][2020-10-15 +8.0 17:24:27.322][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.imchat.IMChatComponent afterAppOnCreate cost: 65ms
+[I][2020-10-15 +8.0 17:24:27.325][12391, 12476][DialogManager][, , 0][registerEvent:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:27.326][12391, 12433][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.327][12391, 12443][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.330][12391, 12451][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.331][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.homehall.HomeHallComponent afterAppOnCreate cost: 9ms
+[I][2020-10-15 +8.0 17:24:27.331][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.loguploadcomponent.LogUploadComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.331][12391, 12476][DialogManager][, , 0][registerEvent:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:27.331][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.teenmodecomponent.TeenModeComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.331][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.pay.PayComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.332][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.sharecomponent.ShareComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.332][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.component.locationreport.LocationReportComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.332][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.launcher.LauncherComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.344][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.resourcemanage.ResourceManageComponent afterAppOnCreate cost: 11ms
+[I][2020-10-15 +8.0 17:24:27.344][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.business.notification.NotificationComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.345][12391, 12391][%s loadConfig() called , isLoadingConfig:%s][, , 0][KingCardUtil [false]
+[I][2020-10-15 +8.0 17:24:27.345][12391, 12391][appInit:true][, , 0][Component: com.meelive.ingkee.kingcardcomponent.KingCardComponent afterAppOnCreate cost: 0ms
+[I][2020-10-15 +8.0 17:24:27.345][12391, 12391][appInit:true][, , 0][finishLoadComponents
+[I][2020-10-15 +8.0 17:24:27.361][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Create: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:27.366][12391, 12391][PerformanceTrack][, , 0][onLauncherStart mLauncherCount= 1
+[W][2020-10-15 +8.0 17:24:27.366][12391, 12391][HuaWeiPush][, , 0][receive data from push, msgId = null, cmd = null, notifyId = -1
+[I][2020-10-15 +8.0 17:24:27.370][12391, 12439][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.498][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Start: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:27.501][12391, 12391][Ingkee][, , 0][ServerInfoComponent::onAppForeground
+[I][2020-10-15 +8.0 17:24:27.504][12391, 12391][LegacyComponent][, , 0][onAppForeground
+[I][2020-10-15 +8.0 17:24:27.504][12391, 12391][Ingkee][, , 0][startLogNetWorCheckTimer 开始timer
+[I][2020-10-15 +8.0 17:24:27.508][12391, 12391][Ingkee][, , 0][[KingCardComponent onAppForeground()] start checkOrder
+[I][2020-10-15 +8.0 17:24:27.508][12391, 12391][%s loadConfig() called , isLoadingConfig:%s][, , 0][KingCardUtil [true]
+[I][2020-10-15 +8.0 17:24:27.513][12391, 12438][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.517][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:27.521][12391, 12391][res-log][, , 0][onResume startPer:false	 isPermissionBack:false
+[I][2020-10-15 +8.0 17:24:27.530][12391, 12391][Ingkee][, , 0][IMChatDataManager: initSwitch  rspnull
+[I][2020-10-15 +8.0 17:24:27.530][12391, 12391][Ingkee][, , 0][unread_log:maybe notify
+[I][2020-10-15 +8.0 17:24:27.533][12391, 12451][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.534][12391, 12391][Ingkee][, , 0][unread_log:mEntrance!!.notifyNum:0
+[I][2020-10-15 +8.0 17:24:27.537][12391, 12439][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.542][12391, 12448][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.542][12391, 12448][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.542][12391, 12449][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.577][12391, 12443][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:27.667][12391, 12441][ChatComponent log: %s][, , 0][ChatDBManager.deleteContacts()
+[I][2020-10-15 +8.0 17:24:27.667][12391, 12441][ChatComponent log: %s][, , 0][ChatDBManager.updateContacts() size: 0
+[I][2020-10-15 +8.0 17:24:27.667][12391, 12441][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContacts()
+[I][2020-10-15 +8.0 17:24:28.572][12391, 12449][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:29.575][12391, 12453][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:30.189][12391, 12433][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:30.189][12391, 12443][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:30.285][12391, 12451][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:30.365][12391, 12439][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:30.525][12391, 12448][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:30.586][12391, 12438][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:32.358][12391, 12391][Ingkee][, , 0][系统不支持ViVo推送
+[I][2020-10-15 +8.0 17:24:32.375][12391, 12391][Ingkee][, , 0][MicroMsg.PaySdk.WXFactory [createWXAPI, appId = wx28aebd63a75d552e, checkSignature = true]
+[I][2020-10-15 +8.0 17:24:32.375][12391, 12391][Ingkee][, , 0][MicroMsg.SDK.WXApiImplV10 [<init>, appId = wx28aebd63a75d552e, checkSignature = true]
+[I][2020-10-15 +8.0 17:24:32.376][12391, 12439][QuickStartException][, , 0][loadSplash mSplashModel = null
+[I][2020-10-15 +8.0 17:24:32.394][12391, 12391][res-log][, , 0][alreadyLoadContentView
+[I][2020-10-15 +8.0 17:24:32.395][12391, 12391][res-log][, , 0][alreadyLoadContentView not have Permission
+[I][2020-10-15 +8.0 17:24:32.447][12391, 12391][QuickStartTrack][, , 0][receive SplashDownSuccessEvent
+[I][2020-10-15 +8.0 17:24:32.449][12391, 12443][TeenModeTipDialog][, , 0][getPasswordStatus: uid:0
+[I][2020-10-15 +8.0 17:24:32.449][12391, 12443][Ingkee][, , 0][TeenModeTipDialog mCachedPasswordUid: 0
+[I][2020-10-15 +8.0 17:24:32.498][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:32.498][12391, 12443][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 0
+[I][2020-10-15 +8.0 17:24:32.514][12391, 12436][Ingkee][, , 0][LogNetWorCheckTimerTask 定时发送消息
+[I][2020-10-15 +8.0 17:24:32.645][12391, 12391][Ingkee][, , 0][DialogManager:json getErrorCode:0
+[I][2020-10-15 +8.0 17:24:32.645][12391, 12391][Ingkee][, , 0][DialogManager:json errorMessage:操作成功
+[I][2020-10-15 +8.0 17:24:32.647][12391, 12391][Ingkee][, , 0][DialogManager:json:{"data":{"hallLimitNum":5,"priorityData":[{"key":"ADOLESCENT_MODEL","priority":1},{"key":"GRAY_SCALE_TO_UPGRADE","priority":2},{"key":"SHARE_BIND_COMPLETION","priority":3},{"key":"SOCIAL_FISSION_POP","priority":4},{"key":"SOCIAL_ACTIVE_INCOME_POP","priority":5},{"key":"SOCIAL_PLAY_GUIDE","priority":6},{"key":"SOCIAL_ACTIVE_GUIDE_POP","priority":7},{"key":"SOCIAL_PICKUP","priority":8},{"key":"ACTIVITY_WINDOW","priority":9},{"key":"RECALL","priority":10},{"key":"SIGN_IN_ROOM","priority":11},{"key":"SIGN_IN_ROOM_LIVE","priority":12},{"key":"QR_CODE_SHARING","priority":13},{"key":"ACTIVITY","priority":14},{"key":"RECOMMEND_CONNECTION","priority":15},{"key":"TASK_COMPLETE","priority":16},{"key":"PUSH_SETTING","priority":17},{"key":"MARKET_COMMENT_MODEL","priority":18},{"key":"ROOM_POKE","priority":19},{"key":"ROOM_FIRST_PAY","priority":20},{"key":"ROOM_FOLLOW_GIFT","priority":21},{"key":"ROOM_LINKMIC_GUIDE","priority":22},{"key":"ME_PORITIART_GUIDE","priority":23},{"key":"APP_VERSION_UPDATE","priority":24},{"key":"SOCIAL_INVITED_DIALOG","priority":25},{"key":"SOCIAL_ACTIVE_INCOME_POP","priority":26},{"key":"VOICE_SPEED_GUIDE_POP","priority":27},{"key":"SOCIAL_ACTIVE_GUIDE_POP","priority":28}],"tab":{"hall":[{"key":"ADOLESCENT_MODEL","priority":1},{"key":"GRAY_SCALE_TO_UPGRADE","priority":2},{"key":"ACTIVITY_WINDOW","priority":3},{"key":"RECALL","priority":4},{"key":"SIGN_IN_ROOM","priority":5},{"key":"QR_CODE_SHARING","priority":6},{"key":"ACTIVITY","priority":7},{"key":"RECOMMEND_CONNECTION","priority":8},{"key":"TASK_COMPLETE","priority":9},{"key":"PUSH_SETTING","priority":10},{"key":"MARKET_COMMENT_MODEL","priority":11},{"key":"APP_VERSION_UPDATE","priority":19}]}},"dm_error":0,"error_msg":"操作成功","status":"ok","version":"1602588764"}
+[I][2020-10-15 +8.0 17:24:32.661][12391, 12476][DialogManager][, , 0][setConfigData:{"hallLimitNum":5,"priorityData":[{"key":"ADOLESCENT_MODEL","priority":1},{"key":"GRAY_SCALE_TO_UPGRADE","priority":2},{"key":"SHARE_BIND_COMPLETION","priority":3},{"key":"SOCIAL_FISSION_POP","priority":4},{"key":"SOCIAL_ACTIVE_INCOME_POP","priority":5},{"key":"SOCIAL_PLAY_GUIDE","priority":6},{"key":"SOCIAL_ACTIVE_GUIDE_POP","priority":7},{"key":"SOCIAL_PICKUP","priority":8},{"key":"ACTIVITY_WINDOW","priority":9},{"key":"RECALL","priority":10},{"key":"SIGN_IN_ROOM","priority":11},{"key":"SIGN_IN_ROOM_LIVE","priority":12},{"key":"QR_CODE_SHARING","priority":13},{"key":"ACTIVITY","priority":14},{"key":"RECOMMEND_CONNECTION","priority":15},{"key":"TASK_COMPLETE","priority":16},{"key":"PUSH_SETTING","priority":17},{"key":"MARKET_COMMENT_MODEL","priority":18},{"key":"ROOM_POKE","priority":19},{"key":"ROOM_FIRST_PAY","priority":20},{"key":"ROOM_FOLLOW_GIFT","priority":21},{"key":"ROOM_LINKMIC_GUIDE","priority":22},{"key":"ME_PORITIART_GUIDE","priority":23},{"key":"APP_VERSION_UPDATE","priority":24},{"key":"SOCIAL_INVITED_DIALOG","priority":25},{"key":"SOCIAL_ACTIVE_INCOME_POP","priority":26},{"key":"VOICE_SPEED_GUIDE_POP","priority":27},{"key":"SOCIAL_ACTIVE_GUIDE_POP","priority":28}],"tab":{"hall":[{"key":"ADOLESCENT_MODEL","priority":1},{"key":"GRAY_SCALE_TO_UPGRADE","priority":2},{"key":"ACTIVITY_WINDOW","priority":3},{"key":"RECALL","priority":4},{"key":"SIGN_IN_ROOM","priority":5},{"key":"QR_CODE_SHARING","priority":6},{"key":"ACTIVITY","priority":7},{"key":"RECOMMEND_CONNECTION","priority":8},{"key":"TASK_COMPLETE","priority":9},{"key":"PUSH_SETTING","priority":10},{"key":"MARKET_COMMENT_MODEL","priority":11},{"key":"APP_VERSION_UPDATE","priority":19}]}}
+[I][2020-10-15 +8.0 17:24:32.662][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:32.662][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:32.662][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SHARE_BIND_COMPLETION
+[I][2020-10-15 +8.0 17:24:32.662][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_FISSION_POP
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_ACTIVE_INCOME_POP
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_ACTIVE_GUIDE_POP
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_PICKUP
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ACTIVITY_WINDOW
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:RECALL
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SIGN_IN_ROOM
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SIGN_IN_ROOM_LIVE
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ACTIVITY
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:RECOMMEND_CONNECTION
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:TASK_COMPLETE
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:PUSH_SETTING
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:MARKET_COMMENT_MODEL
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ROOM_POKE
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ROOM_FIRST_PAY
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ROOM_FOLLOW_GIFT
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ROOM_LINKMIC_GUIDE
+[I][2020-10-15 +8.0 17:24:32.663][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:ME_PORITIART_GUIDE
+[I][2020-10-15 +8.0 17:24:32.664][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:APP_VERSION_UPDATE
+[I][2020-10-15 +8.0 17:24:32.664][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_INVITED_DIALOG
+[I][2020-10-15 +8.0 17:24:32.664][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_ACTIVE_INCOME_POP
+[I][2020-10-15 +8.0 17:24:32.664][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:VOICE_SPEED_GUIDE_POP
+[I][2020-10-15 +8.0 17:24:32.664][12391, 12476][DialogManager][, , 0][for dialogPriorityMap put:SOCIAL_ACTIVE_GUIDE_POP
+[I][2020-10-15 +8.0 17:24:32.667][12391, 12476][DialogManager][, , 0][for hall List:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:32.667][12391, 12476][DialogManager][, , 0][dialogsMap it:dialogKey:ADOLESCENT_MODEL, priority:2147483647, showCode:0, status:NO_START, isFirst:false, 34266050
+[I][2020-10-15 +8.0 17:24:32.667][12391, 12476][DialogManager][, , 0][dialogsMap it after:dialogKey:ADOLESCENT_MODEL, priority:1, showCode:0, status:NO_START, isFirst:false, 34266050
+[I][2020-10-15 +8.0 17:24:32.667][12391, 12476][DialogManager][, , 0][addPriorityDialogInQueue:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:32.674][12391, 12476][DialogManager][, , 0][for hall List:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:32.675][12391, 12476][DialogManager][, , 0][for hall List:ACTIVITY_WINDOW
+[I][2020-10-15 +8.0 17:24:32.675][12391, 12476][DialogManager][, , 0][for hall List:RECALL
+[I][2020-10-15 +8.0 17:24:32.675][12391, 12476][DialogManager][, , 0][for hall List:SIGN_IN_ROOM
+[I][2020-10-15 +8.0 17:24:32.675][12391, 12476][DialogManager][, , 0][for hall List:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:32.675][12391, 12476][DialogManager][, , 0][dialogsMap it:dialogKey:QR_CODE_SHARING, priority:2147483647, showCode:0, status:NO_START, isFirst:false, 246346254
+[I][2020-10-15 +8.0 17:24:32.675][12391, 12476][DialogManager][, , 0][dialogsMap it after:dialogKey:QR_CODE_SHARING, priority:6, showCode:0, status:NO_START, isFirst:false, 246346254
+[I][2020-10-15 +8.0 17:24:32.676][12391, 12476][DialogManager][, , 0][addPriorityDialogInQueue:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:32.681][12391, 12476][DialogManager][, , 0][for hall List:ACTIVITY
+[I][2020-10-15 +8.0 17:24:32.681][12391, 12476][DialogManager][, , 0][for hall List:RECOMMEND_CONNECTION
+[I][2020-10-15 +8.0 17:24:32.681][12391, 12476][DialogManager][, , 0][for hall List:TASK_COMPLETE
+[I][2020-10-15 +8.0 17:24:32.682][12391, 12476][DialogManager][, , 0][for hall List:PUSH_SETTING
+[I][2020-10-15 +8.0 17:24:32.683][12391, 12476][DialogManager][, , 0][for hall List:MARKET_COMMENT_MODEL
+[I][2020-10-15 +8.0 17:24:32.683][12391, 12476][DialogManager][, , 0][for hall List:APP_VERSION_UPDATE
+[I][2020-10-15 +8.0 17:24:32.695][12391, 12391][TeenModeTipDialog][, , 0][查询锁屏结果 uid=0 has=false_rspInkeDefault: {"dm_error":499,"error_msg":"请求参数错误"}
+[I][2020-10-15 +8.0 17:24:32.696][12391, 12721][DialogManager][, , 0][ checkNeedShowDialog:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:32.701][12391, 12721][DialogManager][, , 0][ADOLESCENT_MODEL : isNeedShow : false, isFirst:false
+[I][2020-10-15 +8.0 17:24:32.702][12391, 12476][DialogManager][, , 0][removeDialogEvent:ADOLESCENT_MODEL， needShowNext：false
+[I][2020-10-15 +8.0 17:24:32.705][12391, 12476][DialogManager][, , 0][removeDialogEvent:ADOLESCENT_MODEL timer.cancel
+[I][2020-10-15 +8.0 17:24:32.779][12391, 12509][[push register v2] 注册极光推送][, , 0][
+[I][2020-10-15 +8.0 17:24:32.780][12391, 12509][[push register v2] 注册小米推送: ][, , 0][null
+[I][2020-10-15 +8.0 17:24:32.860][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, mEnterRoomResListGetModel.data.data.clear()
+[I][2020-10-15 +8.0 17:24:32.860][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 1017
+[I][2020-10-15 +8.0 17:24:32.860][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 1
+[I][2020-10-15 +8.0 17:24:33.029][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 750
+[I][2020-10-15 +8.0 17:24:33.029][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 2
+[I][2020-10-15 +8.0 17:24:33.173][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 252
+[I][2020-10-15 +8.0 17:24:33.174][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 3
+[I][2020-10-15 +8.0 17:24:33.244][12391, 12440][Ingkee][, , 0][[react update] 开始检查react native bundle 更新, local bridge version: 10, local bundle version: 105
+[I][2020-10-15 +8.0 17:24:33.255][12391, 12771][[push register v2] 注册小米推送: ][, , 0][CI4n0mEeGJ/cdZxLQBGK8k2OanePDDRzWmSKk2AWiODsy1MSghNw9bSSl6Jf596u
+[I][2020-10-15 +8.0 17:24:33.392][12391, 12391][[react update] response: %s][, , 0][{"dm_error":0,"error_msg":"操作成功","body":{"rn_version":104,"md5":"0ecf3cccc6f2e2e0af0129c97effa66f","url":"https://webcdn.inke.cn/rn/bundle/android/android_10_104.zip","mode":1,"bridge_version":10}}
+[I][2020-10-15 +8.0 17:24:33.393][12391, 12391][Ingkee][, , 0][[react update] 本地最新bundle 版本要比服务器版本新 104 <= 105
+[I][2020-10-15 +8.0 17:24:33.610][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 1343
+[I][2020-10-15 +8.0 17:24:33.611][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 4
+[I][2020-10-15 +8.0 17:24:33.852][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 750
+[I][2020-10-15 +8.0 17:24:33.852][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 5
+[I][2020-10-15 +8.0 17:24:33.930][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 36
+[I][2020-10-15 +8.0 17:24:33.930][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 6
+[I][2020-10-15 +8.0 17:24:34.040][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 100
+[I][2020-10-15 +8.0 17:24:34.041][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 7
+[I][2020-10-15 +8.0 17:24:34.079][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 8
+[I][2020-10-15 +8.0 17:24:34.079][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 8
+[I][2020-10-15 +8.0 17:24:34.210][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 599
+[I][2020-10-15 +8.0 17:24:34.211][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 9
+[I][2020-10-15 +8.0 17:24:34.441][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 60
+[I][2020-10-15 +8.0 17:24:34.442][12391, 12719][KingCardComponent getGuid-onfinished:%s][, , 0][03027620101517243300065500505993
+[I][2020-10-15 +8.0 17:24:34.442][12391, 12391][ResourceManagerServiceImpl][, , 0][[getResCfgNetModel] page = 10
+[I][2020-10-15 +8.0 17:24:34.491][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, enterRoomResListGetModel.data.data.size() = 25
+[I][2020-10-15 +8.0 17:24:34.492][12391, 12391][ResourceManagerServiceImpl][, , 0][mOnFileConfigDownloadListener, mEnterRoomResListGetModel.data.data.size() = 4940
+[I][2020-10-15 +8.0 17:24:34.492][12391, 12391][ResourceManagerServiceImpl][, , 0][[saveDownloadInfos]
+[I][2020-10-15 +8.0 17:24:34.492][12391, 12391][ResourceManagerServiceImpl][, , 0][[saveDownloadInfos] start
+[I][2020-10-15 +8.0 17:24:34.556][12391, 12391][ResourceManagerServiceImpl][, , 0][[printLogForSpecificBusiDownloadInfos] mPreloadDownloadInfos.size() =98
+[I][2020-10-15 +8.0 17:24:34.556][12391, 12391][ResourceManagerServiceImpl][, , 0][[printLogForSpecificBusiDownloadInfos] mLikeIconDownloadInfos.size() =360
+[I][2020-10-15 +8.0 17:24:34.556][12391, 12391][ResourceManagerServiceImpl][, , 0][[deleteUselessFile]
+[I][2020-10-15 +8.0 17:24:34.557][12391, 12391][ResourceManagerServiceImpl][, , 0][[saveResCfgNetModelToLocal]
+[I][2020-10-15 +8.0 17:24:34.729][12391, 12699][[push register v2] 注册极光推送][, , 0][1a0018970a811e0dfa5
+[I][2020-10-15 +8.0 17:24:35.735][12391, 12391][Ingkee][, , 0][IngKeeLauncher.onRequestPermissionsResult
+[I][2020-10-15 +8.0 17:24:35.740][12391, 12391][Ingkee][, , 0][IngKeeLauncher.onPermissionsGranted hasPermissions:true
+[I][2020-10-15 +8.0 17:24:35.768][12391, 12443][issue: %s][, , 0][压缩图片
+[I][2020-10-15 +8.0 17:24:35.773][12391, 12436][ChatComponent log: %s][, , 0][ChatDBManager.loadAllContacts()
+[I][2020-10-15 +8.0 17:24:35.778][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:35.785][12391, 12391][res-log][, , 0][onResume startPer:true	 isPermissionBack:false
+[I][2020-10-15 +8.0 17:24:35.800][12391, 12391][Ingkee][, , 0][unread_log:maybe notify
+[I][2020-10-15 +8.0 17:24:35.803][12391, 12391][checkNetWork][, , 0][InkeReceiver:NetworkState == true
+[I][2020-10-15 +8.0 17:24:35.807][12391, 12391][%s loadConfig() called , isLoadingConfig:%s][, , 0][KingCardUtil [false]
+[I][2020-10-15 +8.0 17:24:35.837][12391, 12432][ChatComponent log: %s][, , 0][ChatDBManager.deleteContacts()
+[I][2020-10-15 +8.0 17:24:35.837][12391, 12432][ChatComponent log: %s][, , 0][ChatDBManager.updateContacts() size: 0
+[I][2020-10-15 +8.0 17:24:35.837][12391, 12432][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContacts()
+[I][2020-10-15 +8.0 17:24:35.869][12391, 12391][res-log][, , 0][afterHasStartPermission
+[I][2020-10-15 +8.0 17:24:35.870][12391, 12451][res-log][, , 0][io thread preLoadData
+[I][2020-10-15 +8.0 17:24:35.870][12391, 12391][PerformanceTrack][, , 0][setNeedLogin-mNeedLogin = true
+[I][2020-10-15 +8.0 17:24:35.871][12391, 12451][Ingkee][, , 0][LoginServiceImpl.interceptSessionExpiredRequest()
+[I][2020-10-15 +8.0 17:24:35.876][12391, 12451][%s loadConfig() called , isLoadingConfig:%s][, , 0][KingCardUtil [true]
+[I][2020-10-15 +8.0 17:24:35.894][12391, 12391][PerformanceTrack][, , 0][isFirstAppInstall = true isRealFirstInstall = true
+[I][2020-10-15 +8.0 17:24:35.894][12391, 12391][PerformanceTrack][, , 0][ProcessStartTime = 576 Type = 1
+[I][2020-10-15 +8.0 17:24:35.912][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:35.912][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:35.922][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:35.937][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Create: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:36.005][12391, 12391][Ingkee][, , 0][MicroMsg.PaySdk.WXFactory [createWXAPI, appId = wx28aebd63a75d552e, checkSignature = false]
+[I][2020-10-15 +8.0 17:24:36.005][12391, 12391][Ingkee][, , 0][MicroMsg.SDK.WXApiImplV10 [<init>, appId = wx28aebd63a75d552e, checkSignature = false]
+[I][2020-10-15 +8.0 17:24:36.006][12391, 12391][Ingkee][, , 0][MicroMsg.SDK.WXMsgImplComm [ignore wechat app signature validation]
+[I][2020-10-15 +8.0 17:24:36.011][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Start: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:36.021][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:36.031][12391, 12391][offerFullScreenMsg][, , 0][FullScreenGiftContainerP initConfig MaxFullScreenGiftSize = 20 SmallGiftGold = 500
+[I][2020-10-15 +8.0 17:24:37.256][12391, 12453][Ingkee][, , 0][--------DUMP RUNTIME INFO---------
+[I][2020-10-15 +8.0 17:24:37.256][12391, 12453][Ingkee][, , 0][(RUNTIME) thread active count: 83
+[I][2020-10-15 +8.0 17:24:37.257][12391, 12453][Ingkee][, , 0][(RUNTIME) free memory: 4828446
+[I][2020-10-15 +8.0 17:24:37.257][12391, 12453][Ingkee][, , 0][(RUNTIME) max memory: 536870912
+[I][2020-10-15 +8.0 17:24:37.258][12391, 12453][Ingkee][, , 0][(RUNTIME) total memory: 35195822
+[I][2020-10-15 +8.0 17:24:37.259][12391, 12453][Ingkee][, , 0][(RUNTIME) network isConnected: true
+[I][2020-10-15 +8.0 17:24:37.262][12391, 12453][Ingkee][, , 0][(RUNTIME) network isAvailable: true
+[I][2020-10-15 +8.0 17:24:37.263][12391, 12453][Ingkee][, , 0][(RUNTIME) network isRoaming: false
+[I][2020-10-15 +8.0 17:24:37.264][12391, 12453][Ingkee][, , 0][(RUNTIME) network type: WIFI
+[I][2020-10-15 +8.0 17:24:37.265][12391, 12453][Ingkee][, , 0][(RUNTIME) user isLogin: false
+[I][2020-10-15 +8.0 17:24:37.266][12391, 12453][Ingkee][, , 0][(RUNTIME) user uid: 0
+[I][2020-10-15 +8.0 17:24:38.864][12391, 12391][%s loadConfig() %s][, , 0][KingCardUtil [{"data":{"feed_list_tip":"您正在使用腾讯王卡视频免流服务","in_video_tip":"您正在使用腾讯王卡免流服务","kcard_enable":true,"live_dialog_button":"免流量服务","live_dialog_button_url":"https://txwk.10010.com/kcardorder/yingke/go?channel\u003d719\u0026adtag\u003d719","live_dialog_content":"当前非wifi环境，请您注意网络流量的使用。","live_tip":"您正在使用腾讯王卡免流服务"},"status":"ok","version":"1552991817","dm_error":0,"error_msg":"操作成功"}]
+[I][2020-10-15 +8.0 17:24:39.033][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:39.053][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Create: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:39.065][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Start: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:39.077][12391, 12391][[InkeCommand] showInkeCommand][, , 0][ [AssistActivity, ]
+[I][2020-10-15 +8.0 17:24:39.078][12391, 12391][Ingkee][, , 0][[InkeCommand] clip data == null
+[I][2020-10-15 +8.0 17:24:39.078][12391, 12391][[InkeCommand] liveId fetch from system clipboard: %s][, , 0][
+[I][2020-10-15 +8.0 17:24:39.078][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:39.102][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:39.340][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Stop: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:39.342][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Destroy: com.meelive.ingkee.launcher.ui.IngkeeLauncher@8db9144
+[I][2020-10-15 +8.0 17:24:40.041][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity onSaveInstance: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:40.042][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Stop: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:40.056][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity onSaveInstance: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:40.079][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Stop: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:40.081][12391, 12391][Ingkee][, , 0][ServerInfoComponent::onAppBackground
+[I][2020-10-15 +8.0 17:24:40.081][12391, 12391][LegacyComponent][, , 0][onAppBackground
+[I][2020-10-15 +8.0 17:24:40.082][12391, 12391][Ingkee][, , 0][startLogNetWorCheckTimer 结束timer
+[I][2020-10-15 +8.0 17:24:43.501][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Start: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:43.508][12391, 12391][Ingkee][, , 0][ServerInfoComponent::onAppForeground
+[I][2020-10-15 +8.0 17:24:43.510][12391, 12391][LegacyComponent][, , 0][onAppForeground
+[I][2020-10-15 +8.0 17:24:43.510][12391, 12391][Ingkee][, , 0][startLogNetWorCheckTimer 开始timer
+[I][2020-10-15 +8.0 17:24:43.511][12391, 12391][Ingkee][, , 0][[KingCardComponent onAppForeground()] start checkOrder
+[I][2020-10-15 +8.0 17:24:43.513][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Start: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:43.820][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:44.230][12391, 12391][Ingkee][, , 0][LoginServiceImpl.login()
+[I][2020-10-15 +8.0 17:24:44.231][12391, 12391][Ingkee][, , 0][LoginServiceImpl.login() uid: 746460431
+[I][2020-10-15 +8.0 17:24:44.235][12391, 12391][Ingkee][, , 0][LoginServiceImpl.updateAtomInfo() uid: 746460431
+[I][2020-10-15 +8.0 17:24:44.236][12391, 12391][Ingkee][, , 0][ServerInfoComponent::onEvent.afterLogin afterLogout
+[I][2020-10-15 +8.0 17:24:44.236][12391, 12391][Ingkee][, , 0][LoginServiceImpl.resetSessionExpiredStatus() uid: 746460431
+[I][2020-10-15 +8.0 17:24:44.237][12391, 12391][Ingkee][, , 0][UserInfoComponent.onEvent() EVENT_LOGIN_AFTER
+[I][2020-10-15 +8.0 17:24:44.275][12391, 12391][Connection][, , 0][connect, reason: process start
+[I][2020-10-15 +8.0 17:24:44.277][12391, 12391][Connection][, , 0][onConnectStart() called, cost since last connect: 1757033
+[W][2020-10-15 +8.0 17:24:44.279][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[W][2020-10-15 +8.0 17:24:44.279][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[W][2020-10-15 +8.0 17:24:44.279][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[W][2020-10-15 +8.0 17:24:44.279][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[I][2020-10-15 +8.0 17:24:44.279][12391, 12391][Connection][, , 0][onConnectFailed() called with: cause = [com.inke.conn.core.InkeConnException$InvalidConnAddressException: address is empty], cost = [3]
+[I][2020-10-15 +8.0 17:24:44.280][12391, 12391][Connection][, , 0][connect, reason: connect failed
+[I][2020-10-15 +8.0 17:24:44.280][12391, 12391][Connection][, , 0][onConnectStart() called, cost since last connect: 2
+[W][2020-10-15 +8.0 17:24:44.280][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[W][2020-10-15 +8.0 17:24:44.281][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[W][2020-10-15 +8.0 17:24:44.281][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[W][2020-10-15 +8.0 17:24:44.281][12391, 12391][IpManager][, , 0][用户链接地址为空，重新请求地址
+[I][2020-10-15 +8.0 17:24:44.281][12391, 12391][Connection][, , 0][onConnectFailed() called with: cause = [com.inke.conn.core.InkeConnException$InvalidConnAddressException: address is empty], cost = [1]
+[I][2020-10-15 +8.0 17:24:44.281][12391, 12391][ConnAdapter--%s][, , 0][start--746460431
+[I][2020-10-15 +8.0 17:24:44.281][12391, 12391][Ingkee][, , 0][AppCoreComponent.onEvent() EVENT_LOGIN_AFTER
+[I][2020-10-15 +8.0 17:24:44.286][12391, 12391][Ingkee][, , 0][[push component] 登陆成功注册推送服务
+[I][2020-10-15 +8.0 17:24:44.287][12391, 12391][Ingkee][, , 0][UserCenterComponent.onEvent() EVENT_LOGIN_AFTER
+[I][2020-10-15 +8.0 17:24:44.287][12391, 12391][Ingkee][, , 0][GreetGuide:login
+[I][2020-10-15 +8.0 17:24:44.288][12391, 12391][Ingkee][, , 0][GreetGuide:oldHasDeal:false
+[I][2020-10-15 +8.0 17:24:44.288][12391, 12391][Ingkee][, , 0][IMChatDataManager: initSwitch
+[I][2020-10-15 +8.0 17:24:44.289][12391, 13046][[push register v2] 注册极光推送][, , 0][1a0018970a811e0dfa5
+[I][2020-10-15 +8.0 17:24:44.291][12391, 13046][[push register v2] 注册小米推送: ][, , 0][CI4n0mEeGJ/cdZxLQBGK8k2OanePDDRzWmSKk2AWiODsy1MSghNw9bSSl6Jf596u
+[I][2020-10-15 +8.0 17:24:44.332][12391, 12432][ChatComponent log: %s][, , 0][ChatDBManager.loadAllContacts()
+[I][2020-10-15 +8.0 17:24:44.337][12391, 12391][Ingkee][, , 0][[KingCardComponent component] 登陆成功注册checkAuto监听
+[I][2020-10-15 +8.0 17:24:44.338][12391, 12391][Ingkee][, , 0][LoginServiceImpl.setSession(int, String) uid: 746460431
+[I][2020-10-15 +8.0 17:24:44.387][12391, 13051][%s KingCardNetManager.uploadKingCard() uid=%s, kcard=%s, net=%s][, , 0][KingCardUtil [746460431, 0, WIFI]
+[I][2020-10-15 +8.0 17:24:44.390][12391, 12391][Ingkee][, , 0][unread_log:maybe notify
+[I][2020-10-15 +8.0 17:24:44.399][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:44.424][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Create: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[E][2020-10-15 +8.0 17:24:44.424][12391, 12391][Ingkee][, , 0][DialogManager MainActivity onCreate
+[I][2020-10-15 +8.0 17:24:44.425][12391, 12391][QuickStartTrack][, , 0][ApplicationStartCost = 17634
+[I][2020-10-15 +8.0 17:24:44.548][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.registerCallbacks()
+[I][2020-10-15 +8.0 17:24:44.590][12391, 12391][Ingkee][, , 0][IncreaseMessageObserverManager.registerAll()
+[I][2020-10-15 +8.0 17:24:44.594][12391, 12391][PushGuideManager][, , 0][requestPushConfig
+[I][2020-10-15 +8.0 17:24:44.595][12391, 12391][a][, , 0][[preloadResource]
+[I][2020-10-15 +8.0 17:24:44.598][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Start: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:44.629][12391, 12391][Ingkee][, , 0][onResume firstResume:true
+[I][2020-10-15 +8.0 17:24:44.630][12391, 12476][DialogManager][, , 0][addShowDialogEvent:SIGN_IN_ROOM
+[I][2020-10-15 +8.0 17:24:44.630][12391, 12476][DialogManager][, , 0][hadConfigData:SIGN_IN_ROOM
+[I][2020-10-15 +8.0 17:24:44.630][12391, 12476][DialogManager][, , 0][addPriorityDialogInQueue:SIGN_IN_ROOM
+[I][2020-10-15 +8.0 17:24:44.631][12391, 13069][DialogManager][, , 0][ checkNeedShowDialog:SIGN_IN_ROOM
+[I][2020-10-15 +8.0 17:24:44.631][12391, 13069][Ingkee][, , 0][requestSignInStatus:before
+[I][2020-10-15 +8.0 17:24:44.640][12391, 12391][[InkeCommand] showInkeCommand][, , 0][ [MainActivity, ]
+[I][2020-10-15 +8.0 17:24:44.641][12391, 12391][Ingkee][, , 0][[InkeCommand] clip data == null
+[I][2020-10-15 +8.0 17:24:44.641][12391, 12391][[InkeCommand] liveId fetch from system clipboard: %s][, , 0][
+[I][2020-10-15 +8.0 17:24:44.641][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:44.641][12391, 12391][Ingkee][, , 0][TeenModeTipDialog  changePasswordStatus
+[I][2020-10-15 +8.0 17:24:44.641][12391, 12391][TeenModeTipDialog][, , 0][getPasswordStatus: uid:746460431
+[I][2020-10-15 +8.0 17:24:44.642][12391, 12391][Ingkee][, , 0][TeenModeTipDialog mCachedPasswordUid: 746460431
+[I][2020-10-15 +8.0 17:24:44.646][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.onResume()
+[I][2020-10-15 +8.0 17:24:44.646][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$FloatLiveCallback.resume()
+[I][2020-10-15 +8.0 17:24:44.647][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$AudioRecEntryCallback.resume()
+[I][2020-10-15 +8.0 17:24:44.647][12391, 12476][DialogManager][, , 0][addShowDialogEvent:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.647][12391, 12476][DialogManager][, , 0][hadConfigData:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.647][12391, 12476][DialogManager][, , 0][addPriorityDialogInQueue:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.649][12391, 12476][DialogManager][, , 0][startShowDialog
+[I][2020-10-15 +8.0 17:24:44.649][12391, 12476][DialogManager][, , 0][First event:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.649][12391, 12476][DialogManager][, , 0][startShowDialog NO_START:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.649][12391, 12476][DialogManager][, , 0][setTimer:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.650][12391, 12721][DialogManager][, , 0][ checkNeedShowDialog:GRAY_SCALE_TO_UPGRADE
+[I][2020-10-15 +8.0 17:24:44.650][12391, 12721][AutoUpdateManager][, , 0][checkUpdate
+[I][2020-10-15 +8.0 17:24:44.653][12391, 12721][FindLogTipEXception][, , 0][UpdateManager  checkUpdate  vc = 7511  vn = 8.1.16-test
+[E][2020-10-15 +8.0 17:24:44.662][12391, 12391][Ingkee][, , 0][DialogManager MainActivity onResume
+[I][2020-10-15 +8.0 17:24:44.668][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Stop: com.tencent.connect.common.AssistActivity@8016044
+[I][2020-10-15 +8.0 17:24:44.668][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Destroy: com.tencent.connect.common.AssistActivity@8016044
+[E][2020-10-15 +8.0 17:24:44.689][12391, 12391][RefreshExecutor][, , 0][paramEncoder Error: null, exception: 
+[I][2020-10-15 +8.0 17:24:44.698][12391, 12391][requestDynamicNumFromServer][, , 0][requestDynamicNumFromServer
+[I][2020-10-15 +8.0 17:24:44.770][12391, 12448][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: No value for dm_error
+[I][2020-10-15 +8.0 17:24:44.772][12391, 12448][DynamicLoadSo][, , 0][preLoadSo() isSoExit=false soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:44.779][12391, 12391][Ingkee][, , 0][mSession_ID_change:推荐(默认的全球)
+[I][2020-10-15 +8.0 17:24:44.779][12391, 12391][FindLoadMoreException][, , 0][HomeHallListContainer_setPreloadRecycleViewCallBack  = com.meelive.ingkee.business.recommend.view.HomeHallRecView$1@f961b81
+[I][2020-10-15 +8.0 17:24:44.800][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----New----- 
+[I][2020-10-15 +8.0 17:24:44.800][12391, 12391][FindLoadMoreException][, , 0][HomeHallListContainer_setPreloadRecycleViewCallBack  = com.meelive.ingkee.business.recommend.view.HomeHallRecView$1@f961b81
+[I][2020-10-15 +8.0 17:24:44.810][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:44.810][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----isCanPreview()-----isCanPreview = false-----mIsForeground=false
+[I][2020-10-15 +8.0 17:24:44.811][12391, 12391][checkNetWork][, , 0][NetworkState == 1
+[I][2020-10-15 +8.0 17:24:44.811][12391, 12441][Ingkee][, , 0][mSession_ID_change:推荐(默认的全球)
+[I][2020-10-15 +8.0 17:24:44.811][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:44.812][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----isCanPreview()-----isCanPreview = false-----mIsForeground=false
+[I][2020-10-15 +8.0 17:24:44.817][12391, 12441][Ingkee][, , 0][mSession_ID_change:推荐(默认的全球)
+[I][2020-10-15 +8.0 17:24:44.846][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:44.847][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:44.848][12391, 12391][Ingkee][, , 0][NearLiveViewrequestPageData   mNearHasMore = true
+[I][2020-10-15 +8.0 17:24:44.858][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][nearbylive146190540HallPreviewHelper----New----- 
+[I][2020-10-15 +8.0 17:24:44.875][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][161773990PreviewHelper----New-----
+[I][2020-10-15 +8.0 17:24:44.876][12391, 12391][Ingkee][, , 0][mSession_ID_change:热门
+[I][2020-10-15 +8.0 17:24:44.877][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][161773990PreviewHelper----onPause-----
+[I][2020-10-15 +8.0 17:24:44.905][12391, 12391][Ingkee][, , 0][mSession_ID_change:热门
+[I][2020-10-15 +8.0 17:24:44.906][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----onResume-----
+[I][2020-10-15 +8.0 17:24:44.906][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:44.907][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----isCanPreview()-----isCanPreview = true-----mIsForeground=true
+[I][2020-10-15 +8.0 17:24:44.907][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----startPreview()-----
+[I][2020-10-15 +8.0 17:24:44.908][12391, 12391][PerformanceTrack][, , 0][onMainPageResume-mNeedLogin = true mMainPageRenderTime = 0
+[I][2020-10-15 +8.0 17:24:44.908][12391, 12391][PerformanceTrack][, , 0][sendMainPageStartTrack-mApplicationCreate =  1602753866790
+[I][2020-10-15 +8.0 17:24:44.908][12391, 12391][PerformanceTrack][, , 0][MainPageStartTimeTotal = 748 mainPageLoadTime= 485 launcherTime= 8504 tickerDelayTime = 0 launchDialogShowTime = 4911 permissionDelayTime = 3330 processStartTime = 576
+[I][2020-10-15 +8.0 17:24:44.908][12391, 12391][PerformanceTrack][, , 0][cache_type = 0
+[I][2020-10-15 +8.0 17:24:44.919][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:44.922][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----onPause-----
+[I][2020-10-15 +8.0 17:24:44.923][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.onPause()
+[I][2020-10-15 +8.0 17:24:44.923][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$FloatLiveCallback.pause()
+[I][2020-10-15 +8.0 17:24:44.924][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$AudioRecEntryCallback.pause()
+[I][2020-10-15 +8.0 17:24:44.930][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.setMainViewPage() page: nearby
+[I][2020-10-15 +8.0 17:24:44.931][12391, 12391][Ingkee][, , 0][onResume firstResume:false
+[I][2020-10-15 +8.0 17:24:44.940][12391, 12391][[InkeCommand] showInkeCommand][, , 0][ [MainActivity, ]
+[I][2020-10-15 +8.0 17:24:44.940][12391, 12391][Ingkee][, , 0][[InkeCommand] clip data == null
+[I][2020-10-15 +8.0 17:24:44.940][12391, 12391][[InkeCommand] liveId fetch from system clipboard: %s][, , 0][
+[I][2020-10-15 +8.0 17:24:44.941][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:44.941][12391, 12391][Ingkee][, , 0][TeenModeTipDialog  changePasswordStatus
+[I][2020-10-15 +8.0 17:24:44.944][12391, 12391][DynamicLoadSo][, , 0][preLoadSo() isSoExit=false soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:44.959][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.onResume()
+[I][2020-10-15 +8.0 17:24:44.959][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$FloatLiveCallback.resume()
+[I][2020-10-15 +8.0 17:24:44.960][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$AudioRecEntryCallback.resume()
+[E][2020-10-15 +8.0 17:24:44.962][12391, 12391][Ingkee][, , 0][DialogManager MainActivity onResume
+[I][2020-10-15 +8.0 17:24:44.975][12391, 12391][Ingkee][, , 0][IMChatDataManager: initSwitch  rsp{"dm_error":10001,"error_msg":"无权访问"}
+[I][2020-10-15 +8.0 17:24:45.017][12391, 12391][Ingkee][, , 0][NearLiveViewrequestRecData2  
+[I][2020-10-15 +8.0 17:24:45.017][12391, 12391][Ingkee][, , 0][NearLiveViewrequestRecData   mRecOffset = 0
+[I][2020-10-15 +8.0 17:24:45.017][12391, 12391][Ingkee][, , 0][mSession_ID_change:推荐
+[I][2020-10-15 +8.0 17:24:45.085][12391, 12453][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: No value for dm_error
+[I][2020-10-15 +8.0 17:24:45.086][12391, 12438][Ingkee][, , 0][IntervalRefreshStrategy::innerRefresh::result
+[I][2020-10-15 +8.0 17:24:45.086][12391, 12438][Ingkee][, , 0][ServiceInfoStoreImpl::update.isContentIdentity=false
+[I][2020-10-15 +8.0 17:24:45.098][12391, 12391][DialogManager][, , 0][GRAY_SCALE_TO_UPGRADE : isNeedShow : false, isFirst:true
+[I][2020-10-15 +8.0 17:24:45.098][12391, 12391][AutoUpdateManager][, , 0][return case 4
+[I][2020-10-15 +8.0 17:24:45.098][12391, 12476][DialogManager][, , 0][removeDialogEvent:GRAY_SCALE_TO_UPGRADE， needShowNext：true
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12476][DialogManager][, , 0][removeDialogEvent:GRAY_SCALE_TO_UPGRADE timer.cancel
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12476][DialogManager][, , 0][startShowDialog
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12476][DialogManager][, , 0][First event:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12476][DialogManager][, , 0][startShowDialog NO_START:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12476][DialogManager][, , 0][setTimer:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12721][DialogManager][, , 0][startShowDialog checkNeedShowDialog:QR_CODE_SHARING
+[I][2020-10-15 +8.0 17:24:45.099][12391, 12721][Ingkee][, , 0][ DialogManager:checkNeedShowDialog
+[I][2020-10-15 +8.0 17:24:45.112][12391, 12391][RenderThreadException][, , 0][loadStartRes startLiveRes = http://m4a.inke.cn/MTU5NTg0MzA0MzY2NiM3MzAjd2VicA==.webp
+[I][2020-10-15 +8.0 17:24:45.112][12391, 12391][%s KingCardNetManager.uploadKingCard() result=%s][, , 0][KingCardUtil [{"isFree":"false","dm_error":0,"error_msg":"操作成功"}]
+[I][2020-10-15 +8.0 17:24:45.116][12391, 12391][Ingkee][, , 0][unread_log:maybe notify
+[I][2020-10-15 +8.0 17:24:45.117][12391, 12391][Ingkee][, , 0][unread_log:mUnreadInfo:{"mChatCaculateNum":43,"mChatUnreadNum":43,"mDyCaculateNum":0,"mDyCommentUnreadNum":0,"mDyLikeUnreadNum":0,"mFamilyUnreadNum":0,"mGreetCaculateNum":0,"mGreetGiftUnreadNum":0,"mGreetUnreadNum":0,"mNotifyTargetItem":0,"mNotifyUnreadNum":0,"mSysCaculateNum":5,"mSysUnreadNum":5,"mTotalCaculateNum":48}
+[I][2020-10-15 +8.0 17:24:45.119][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.deleteContacts()
+[I][2020-10-15 +8.0 17:24:45.119][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.updateContacts() size: 0
+[I][2020-10-15 +8.0 17:24:45.119][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContacts()
+[I][2020-10-15 +8.0 17:24:45.120][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 747408198
+[I][2020-10-15 +8.0 17:24:45.120][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 747408198
+[I][2020-10-15 +8.0 17:24:45.125][12391, 12449][IpManager][, , 0][更新 host: [47.94.26.229:1300, 47.95.97.84:1300, 47.95.96.98:1300, 47.94.26.30:1300, 39.105.227.91:1300]
+[I][2020-10-15 +8.0 17:24:45.135][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 747408198 insertId: 1
+[I][2020-10-15 +8.0 17:24:45.135][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 112678206
+[I][2020-10-15 +8.0 17:24:45.135][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 112678206
+[I][2020-10-15 +8.0 17:24:45.149][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 112678206 insertId: 2
+[I][2020-10-15 +8.0 17:24:45.149][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 745018268
+[I][2020-10-15 +8.0 17:24:45.149][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 745018268
+[I][2020-10-15 +8.0 17:24:45.167][12391, 12453][Ingkee][, , 0][QrCode : filePath: /storage/emulated/0/DCIM/Screenshots/Screenshot_2020-10-10-16-43-17-643_com.meelive.ingkee.png
+[I][2020-10-15 +8.0 17:24:45.169][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:45.169][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:45.173][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 745018268 insertId: 3
+[I][2020-10-15 +8.0 17:24:45.174][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 23228496
+[I][2020-10-15 +8.0 17:24:45.174][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 23228496
+[I][2020-10-15 +8.0 17:24:45.184][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 23228496 insertId: 4
+[I][2020-10-15 +8.0 17:24:45.185][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 747483872
+[I][2020-10-15 +8.0 17:24:45.185][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 747483872
+[I][2020-10-15 +8.0 17:24:45.204][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 747483872 insertId: 5
+[I][2020-10-15 +8.0 17:24:45.205][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 745323730
+[I][2020-10-15 +8.0 17:24:45.206][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 745323730
+[I][2020-10-15 +8.0 17:24:45.221][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 745323730 insertId: 6
+[I][2020-10-15 +8.0 17:24:45.221][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 515379649
+[I][2020-10-15 +8.0 17:24:45.222][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 515379649
+[I][2020-10-15 +8.0 17:24:45.226][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Stop: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:45.227][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Destroy: com.meelive.ingkee.business.login.LoginActivity@e81b479
+[I][2020-10-15 +8.0 17:24:45.239][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 515379649 insertId: 7
+[I][2020-10-15 +8.0 17:24:45.239][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 747649825
+[I][2020-10-15 +8.0 17:24:45.239][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 747649825
+[I][2020-10-15 +8.0 17:24:45.250][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 747649825 insertId: 8
+[I][2020-10-15 +8.0 17:24:45.250][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 747644370
+[I][2020-10-15 +8.0 17:24:45.251][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 747644370
+[I][2020-10-15 +8.0 17:24:45.261][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 747644370 insertId: 9
+[I][2020-10-15 +8.0 17:24:45.262][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 120948
+[I][2020-10-15 +8.0 17:24:45.262][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 120948
+[I][2020-10-15 +8.0 17:24:45.269][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 120948 insertId: 10
+[I][2020-10-15 +8.0 17:24:45.270][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 181918
+[I][2020-10-15 +8.0 17:24:45.270][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 181918
+[I][2020-10-15 +8.0 17:24:45.279][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 181918 insertId: 11
+[I][2020-10-15 +8.0 17:24:45.279][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 744659014
+[I][2020-10-15 +8.0 17:24:45.279][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 744659014
+[I][2020-10-15 +8.0 17:24:45.280][12391, 13043][Connection][, , 0][connect, reason: routine check, com.inke.conn.a.t@d646283
+[I][2020-10-15 +8.0 17:24:45.281][12391, 13043][Connection][, , 0][onConnectStart() called, cost since last connect: 1001
+[I][2020-10-15 +8.0 17:24:45.281][12391, 13043][ParallelConnectStrategy][, , 0][start connect -> 47.94.26.30:1300
+[I][2020-10-15 +8.0 17:24:45.295][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 744659014 insertId: 12
+[I][2020-10-15 +8.0 17:24:45.295][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContactDb() peer.id: 1
+[I][2020-10-15 +8.0 17:24:45.296][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.findContactByPeerId() peer.id: 1
+[I][2020-10-15 +8.0 17:24:45.296][12391, 13043][ParallelConnectStrategy][, , 0][start connect -> 47.95.97.84:1300
+[I][2020-10-15 +8.0 17:24:45.297][12391, 13043][ParallelConnectStrategy][, , 0][start connect -> 47.95.96.98:1300
+[I][2020-10-15 +8.0 17:24:45.297][12391, 13043][ParallelConnectStrategy][, , 0][start connect -> 39.105.227.91:1300
+[I][2020-10-15 +8.0 17:24:45.301][12391, 12431][ChatComponent log: %s][, , 0][ChatDBManager.insertContactDb() peer.id: 1 insertId: 13
+[I][2020-10-15 +8.0 17:24:45.302][12391, 12437][ChatComponent log: %s][, , 0][ChatDBManager.loadAllContacts()
+[I][2020-10-15 +8.0 17:24:45.307][12391, 12391][Ingkee][, , 0][unread_log:maybe notify
+[I][2020-10-15 +8.0 17:24:45.404][12391, 12438][Ingkee][, , 0][ServiceInfoStoreImpl::serializationCache.put=true
+[I][2020-10-15 +8.0 17:24:45.404][12391, 12438][Ingkee][, , 0][TeenModeTipDialog: OnServiceInfoChanged746460431
+[I][2020-10-15 +8.0 17:24:45.405][12391, 12438][Ingkee][, , 0][TeenModeTipDialog  changePasswordStatus
+[I][2020-10-15 +8.0 17:24:45.405][12391, 12438][Ingkee][, , 0][ServerInfoServiceImpl::onServerInfoChanged
+[I][2020-10-15 +8.0 17:24:45.440][12391, 12391][PushGuideManager][, , 0][requestPushConfig onNext
+[I][2020-10-15 +8.0 17:24:45.441][12391, 12391][PushGuideManager][, , 0][isNotificationEnabled:false
+[I][2020-10-15 +8.0 17:24:45.442][12391, 12391][PushGuideManager][, , 0][pushConfig::{"attention_liver":{"body_pic":"https://img.ikstatic.cn/MTU2NDQwODEyNzg1MyM1OTgjcG5n.png","button_pic":"https://img.ikstatic.cn/MTU2NDQwODEyODA4MiMzMTAjcG5n.png","status":1},"attention_page":{"button_pic":"https://img.ikstatic.cn/MTU2NDc5ODAxNzUwNiM0MjMjcG5n.png","icon":"https://img.ikstatic.cn/MTU2NDQ3NDcyNjA4MyMgODYjcG5n.png","status":1,"title":"开启通知，别错过重要消息！"},"home_page":{"body_pic":"https://img.ikstatic.cn/MTU2NDQwODEyNjg0NiM4NjYjcG5n.png","status":0},"letter_page":{"button_pic":"https://img.ikstatic.cn/MTU2NDc5ODAxNzUwNiM0MjMjcG5n.png","icon":"https://img.ikstatic.cn/MTU4NTEwNzQ4MDc0NSMgMjYjcG5n.png","status":1,"title":"开启通知，别错过重要消息！"},"personal_page_letter":{"body_pic":"https://img.ikstatic.cn/MTU3NjIzNjg4OTYzOCMxNjQjcG5n.png","button_content":"立即开启","main_content":"打开通知，别错过你们的聊天消息！","status":1},"status":1,"user_guid":0,"view_record_page":{"button_pic":"https://img.ikstatic.cn/MTU2NDc5ODAxNzUwNiM0MjMjcG5n.png","icon":"https://img.ikstatic.cn/MTU2NDQ3NDcyNjA4MyMgODYjcG5n.png","status":1,"title":"开启通知，别错过重要消息！"},"visitor_record_page":{"button_pic":"https://img.ikstatic.cn/MTU2NDc5ODAxNzUwNiM0MjMjcG5n.png","icon":"https://img.ikstatic.cn/MTU2NDQ3NDcyNjA4MyMgODYjcG5n.png","status":1,"title":"开启通知，别错过重要消息！"}}
+[I][2020-10-15 +8.0 17:24:45.442][12391, 12391][PushGuideManager][, , 0][shouldShow::false
+[I][2020-10-15 +8.0 17:24:45.442][12391, 12391][PushGuideManager][, , 0][requestPushConfig onNext return 4
+[I][2020-10-15 +8.0 17:24:45.453][12391, 13093][ParallelConnectStrategy][, , 0][first connection is Success -> 47.94.26.30:1300
+[I][2020-10-15 +8.0 17:24:45.453][12391, 13093][ParallelConnectStrategy][, , 0][connection fail -> 47.95.97.84:1300 Cause null
+[I][2020-10-15 +8.0 17:24:45.455][12391, 13093][ParallelConnectStrategy][, , 0][connection fail -> 47.95.96.98:1300 Cause null
+[I][2020-10-15 +8.0 17:24:45.456][12391, 13093][ParallelConnectStrategy][, , 0][connection fail -> 39.105.227.91:1300 Cause null
+[I][2020-10-15 +8.0 17:24:45.457][12391, 13093][Connection][, , 0][onConnectSuccess，addr: 47.94.26.30:1300, cost: 176
+[I][2020-10-15 +8.0 17:24:45.459][12391, 13093][Connection][, , 0][onChannelActive() called
+[I][2020-10-15 +8.0 17:24:45.459][12391, 13093][HandshakeConnection][, , 0][1. channelActive, start handshake
+[I][2020-10-15 +8.0 17:24:45.459][12391, 13093][Handshake][, , 0][handshake
+[I][2020-10-15 +8.0 17:24:45.472][12391, 13093][Handshake][, , 0][send handshake request success
+[I][2020-10-15 +8.0 17:24:45.492][12391, 13093][Handshake][, , 0][handshake response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4003}, seq=UInt16{0x1}, uid=UInt32{0}, session=UInt32{10000}, rescode=UInt16{0x0}, bodyLength=UInt16{0x82}, headLen=UInt32{0}, text='', headerInJson=''}
+[I][2020-10-15 +8.0 17:24:45.493][12391, 13093][Connection][, , 0][onUserEvent() called with: evt = [HandshakeResultEvent{success=true, resCode=UInt16{0x0}, cost=33}]
+[I][2020-10-15 +8.0 17:24:45.494][12391, 13093][HandshakeConnection][, , 0][2. handshake success, start login
+[I][2020-10-15 +8.0 17:24:45.496][12391, 13093][Login][, , 0][login send success
+[I][2020-10-15 +8.0 17:24:45.496][12391, 13093][Connection][, , 0][receive first msg, cost since connected: 39, cost since last active: 37
+[I][2020-10-15 +8.0 17:24:45.655][12391, 13093][Ingkee][, , 0][IncreaseMessageCenter.isIncreaseMessage() msg: {"gid":"b921466d56aed1f8a45cedcb012ff483","retcode":0}
+[I][2020-10-15 +8.0 17:24:45.656][12391, 13093][Ingkee][, , 0][IncreaseMessageCenter.isIncreaseMessage() false
+[I][2020-10-15 +8.0 17:24:45.656][12391, 13093][Login][, , 0][login response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4004}, seq=UInt16{0x2}, uid=UInt32{0}, session=UInt32{10000}, rescode=UInt16{0x0}, bodyLength=UInt16{0x66}, headLen=UInt32{0}, text='{"bus_buf": [{"gid":"b921466d56aed1f8a45cedcb012ff483","retcode":0}]}', headerInJson=''}
+[I][2020-10-15 +8.0 17:24:45.657][12391, 13093][Login][, , 0][login result, gid: b921466d56aed1f8a45cedcb012ff483, retCode: 0
+[I][2020-10-15 +8.0 17:24:45.657][12391, 13093][Connection][, , 0][onUserEvent() called with: evt = [LoginResultEvent{success=true, resCode=UInt16{0x0}, cost=163}]
+[I][2020-10-15 +8.0 17:24:45.662][12391, 13093][HandshakeConnection][, , 0][3. login success, prepared for business msg. Oh Ye!
+[I][2020-10-15 +8.0 17:24:45.675][12391, 12391][Ingkee][, , 0][requestSignInStatus response: {"config":{"bubble_free_gift_guide":0,"need_hall_pop":0,"receive_button_link":"","unreceived_task_id":16},"resource":{"anchor_nickname":"","background_image_url":"https://img.ikstatic.cn/MTU5MzQ5ODYwODcxNSM4OTUjcG5n.png","big_background_content":"给你发了一个大红包","big_background_title":"","big_unreceived_award_image_url":"https://img.ikstatic.cn/MTU4ODI1MTg4MDUxNyMzNDAjcG5n.png","desc_content":"10月12日-10月18日","receive_button_image_url":"https://img.ikstatic.cn/MTU5Mzc3MzcwMTAyOCM2OTQjcG5n.png","room_background_image_url":"https://img.ikstatic.cn/MTU3NjYzNjUxODQxNyM0OTMjcG5n.png","room_body_content":"","room_header_content_url":"https://img.ikstatic.cn/MTU3NjY1MTAzNTczMCMgMzgjcG5n.png","user_group":"style_a"},"week_task":{"body_text":[{"color":"#999999","text":"主播 "},{"color":"#FB706F","text":"主播"},{"color":"#999999","text":" 送的礼包"}],"bottom_text":[{"color":"#999999","text":"已签到"},{"color":"#FB706F","text":" 1 "},{"color":"#999999","text":"天，累计签到7天领取神秘大礼"}],"button_text":"去跟主播问声好","click_event":1,"end_time":"2020年10月18日","items":[{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1}],"status":1,"task_desc":"第一天","task_id":16,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njg0Mzk0MSMgNTIjcG5n.png"},{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1}],"status":0,"task_desc":"第二天","task_id":17,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njg0Mzk0MSMgNTIjcG5n.png"},{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1}],"status":0,"task_desc":"第三天","task_id":18,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njg0Mzk0MSMgNTIjcG5n.png"},{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1}],"status":0,"task_desc":"第四天","task_id":19,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njg0Mzk0MSMgNTIjcG5n.png"},{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1}],"status":0,"task_desc":"第五天","task_id":20,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njg0Mzk0MSMgNTIjcG5n.png"},{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1}],"status":0,"task_desc":"第六天","task_id":21,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njg0Mzk0MSMgNTIjcG5n.png"},{"award":[{"award_icon":"https://img.ikstatic.cn/MTU5MjgzNzE1NjA2NCM1ODQjcG5n.png","award_id":30001,"award_name":"钻石","award_num":1,"award_pr":1},{"award_icon":"https://img.ikstatic.cn/MTU5ODAwMTk0NTcxNSM2MTAjcG5n.png","award_id":30004,"award_name":"映豆","award_num":200,"award_pr":1}],"status":0,"task_desc":"第七天","task_id":22,"type":2,"unreceived_award_image_url":"https://img.ikstatic.cn/MTU5NzI4Njk1NDYwMyM0OTUjcG5n.png"}],"jump_url":"inke://?pname\u003droommethod\u0026methodname\u003dshowchat\u0026frompage\u003drnpage","start_time":"2020年10月12日","title":"恭喜获得","type":2,"type_name":"七天累计登录"},"dm_error":0,"error_msg":"操作成功"}
+[I][2020-10-15 +8.0 17:24:45.678][12391, 12391][Ingkee][, , 0][requestSignInStatus response error_msg: 操作成功
+[I][2020-10-15 +8.0 17:24:45.680][12391, 12391][Ingkee][, , 0][requestSignInStatus response dm_error: 0
+[I][2020-10-15 +8.0 17:24:45.681][12391, 12391][TeenModeTipDialog][, , 0][查询锁屏结果 uid=746460431 has=false_rspInkeDefault: {"dm_error":0,"error_msg":"操作成功","has":false,"equal":true}
+[I][2020-10-15 +8.0 17:24:45.681][12391, 12391][Ingkee][, , 0][TeenModeTipDialog  准备展示弹窗
+[I][2020-10-15 +8.0 17:24:45.681][12391, 12391][Ingkee][, , 0][TeenModeTipDialogshowTeenModeOpenDialog: TeenModeStateManager.ins().teenModeSwitch():true
+[I][2020-10-15 +8.0 17:24:45.682][12391, 12391][Ingkee][, , 0][TeenModeTipDialogshowTeenModeOpenDialog: isTeenModefalse
+[I][2020-10-15 +8.0 17:24:45.682][12391, 12391][Ingkee][, , 0][TeenModeTipDialog  展示1
+[I][2020-10-15 +8.0 17:24:45.683][12391, 12476][DialogManager][, , 0][addShowDialogEvent:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:45.683][12391, 12476][DialogManager][, , 0][hadConfigData:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:45.683][12391, 12476][DialogManager][, , 0][addPriorityDialogInQueue:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:45.683][12391, 13069][DialogManager][, , 0][ checkNeedShowDialog:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:45.683][12391, 13069][DialogManager][, , 0][ADOLESCENT_MODEL : isNeedShow : true, isFirst:false
+[I][2020-10-15 +8.0 17:24:45.684][12391, 12391][Ingkee][, , 0][requestSignInStatus response isNeedShow false: Throwable [com.meelive.ingkee.business.main.entry.legacy.increate.presenter.IncreaseSignInHomePresenter$SignInHomeException]
+[I][2020-10-15 +8.0 17:24:45.685][12391, 12391][requestSignInStatus response isNeedShow false: Throwable][, , 0][null
+[I][2020-10-15 +8.0 17:24:45.685][12391, 12391][DialogManager][, , 0][SIGN_IN_ROOM : isNeedShow : false, isFirst:false
+[I][2020-10-15 +8.0 17:24:45.685][12391, 12476][DialogManager][, , 0][removeDialogEvent:SIGN_IN_ROOM， needShowNext：false
+[I][2020-10-15 +8.0 17:24:45.956][12391, 12391][a][, , 0][preLoadSo loadSoZip() loadSoCallBack=null activity=null soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:45.960][12391, 13112][a][, , 0][preLoadSo IDLCallback()
+[I][2020-10-15 +8.0 17:24:45.960][12391, 13112][a][, , 0][preLoadSo onProcess() process=0 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.277][12391, 13043][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.a.t@d646283
+[I][2020-10-15 +8.0 17:24:46.305][12391, 13112][a][, , 0][preLoadSo onProcess() process=2 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.351][12391, 12391][FindLoadMoreException][, , 0][HomeHallRecView_changeDataList   isLoadingMore = false 
+[I][2020-10-15 +8.0 17:24:46.351][12391, 12391][FindLoadMoreException][, , 0][HomeHallRecView_changeDataList homeRecResultModel == null
+[I][2020-10-15 +8.0 17:24:46.391][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:46.391][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----isCanPreview()-----isCanPreview = false-----mIsForeground=false
+[I][2020-10-15 +8.0 17:24:46.491][12391, 13112][a][, , 0][preLoadSo onProcess() process=7 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.491][12391, 13093][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=211}]
+[I][2020-10-15 +8.0 17:24:46.544][12391, 12391][a][, , 0][preLoadSo loadSoZip() loadSoCallBack=null activity=com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.546][12391, 13120][a][, , 0][preLoadSo IDLCallback()
+[I][2020-10-15 +8.0 17:24:46.546][12391, 13120][a][, , 0][preLoadSo IDLCallback()
+[I][2020-10-15 +8.0 17:24:46.546][12391, 13120][a][, , 0][preLoadSo onProcess() process=0 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.546][12391, 13120][a][, , 0][preLoadSo onProcess() process=0 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.602][12391, 13112][a][, , 0][preLoadSo onProcess() process=9 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.603][12391, 13112][a][, , 0][preLoadSo onProcess() process=9 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.739][12391, 13112][a][, , 0][preLoadSo onProcess() process=12 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.740][12391, 13112][a][, , 0][preLoadSo onProcess() process=12 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.841][12391, 13112][a][, , 0][preLoadSo onProcess() process=22 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.842][12391, 13112][a][, , 0][preLoadSo onProcess() process=22 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:46.862][12391, 12391][SameCityView][, , 0][checkLocationPermission ==== 3===== requestPermissions
+[I][2020-10-15 +8.0 17:24:46.918][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:46.920][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.onPause()
+[I][2020-10-15 +8.0 17:24:46.921][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$FloatLiveCallback.pause()
+[I][2020-10-15 +8.0 17:24:46.921][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$AudioRecEntryCallback.pause()
+[I][2020-10-15 +8.0 17:24:46.979][12391, 12391][FindLoadMoreException][, , 0][HomeHallRecView_changeDataList   isLoadingMore = false 
+[I][2020-10-15 +8.0 17:24:46.979][12391, 12391][FindLoadMoreException][, , 0][HomeHallRecView_changeDataList homeRecResultModel == null
+[I][2020-10-15 +8.0 17:24:46.988][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:46.988][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][recommend59010116HallPreviewHelper----isCanPreview()-----isCanPreview = false-----mIsForeground=false
+[I][2020-10-15 +8.0 17:24:47.265][12391, 13120][a][, , 0][preLoadSo onProcess() process=1 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.265][12391, 13120][a][, , 0][preLoadSo onProcess() process=1 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.404][12391, 13112][a][, , 0][preLoadSo onProcess() process=23 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.405][12391, 13112][a][, , 0][preLoadSo onProcess() process=23 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.433][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:47.434][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:47.449][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:47.450][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:47.464][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:47.465][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:47.536][12391, 12433][Ingkee][, , 0][PKLog: parse Action: org.json.JSONException: End of input at character 0 of 
+[I][2020-10-15 +8.0 17:24:47.573][12391, 13120][a][, , 0][preLoadSo onProcess() process=4 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.573][12391, 13120][a][, , 0][preLoadSo onProcess() process=4 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.589][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][161773990PreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:47.590][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][161773990PreviewHelper----isCanPreview()-----isCanPreview = false-----mIsForeground=false
+[I][2020-10-15 +8.0 17:24:47.598][12391, 12433][Ingkee][, , 0][im_voice:appCreate:lastNumber：0	 unreadCount:48
+[I][2020-10-15 +8.0 17:24:47.599][12391, 12433][Ingkee][, , 0][im_voice:appCreate:playMusic：hintNumber：3
+[E][2020-10-15 +8.0 17:24:47.602][12391, 12391][Ingkee][, , 0][copyAssetsFile2Phone success
+[I][2020-10-15 +8.0 17:24:47.662][12391, 13112][a][, , 0][preLoadSo onProcess() process=34 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.663][12391, 13112][a][, , 0][preLoadSo onProcess() process=34 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.723][12391, 12391][RenderThreadException][, , 0][HomeHallFragment_playStartLiveSvgaAnim return
+[I][2020-10-15 +8.0 17:24:47.780][12391, 12476][DialogManager][, , 0][addShowDialogEvent:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.780][12391, 12476][DialogManager][, , 0][hadConfigData:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.782][12391, 12476][DialogManager][, , 0][addPriorityDialogInQueue:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.783][12391, 12721][DialogManager][, , 0][ checkNeedShowDialog:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.783][12391, 12721][DialogManager][, , 0][SOCIAL_PLAY_GUIDE : isNeedShow : true, isFirst:false
+[E][2020-10-15 +8.0 17:24:47.832][12391, 12391][Ingkee][, , 0][QrCode: null
+[I][2020-10-15 +8.0 17:24:47.853][12391, 13120][a][, , 0][preLoadSo onProcess() process=7 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.853][12391, 13120][a][, , 0][preLoadSo onProcess() process=7 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.855][12391, 12391][DialogManager][, , 0][QR_CODE_SHARING : isNeedShow : false, isFirst:true
+[I][2020-10-15 +8.0 17:24:47.855][12391, 12476][DialogManager][, , 0][removeDialogEvent:QR_CODE_SHARING， needShowNext：true
+[I][2020-10-15 +8.0 17:24:47.855][12391, 12476][DialogManager][, , 0][startShowDialog
+[I][2020-10-15 +8.0 17:24:47.856][12391, 12476][DialogManager][, , 0][First event:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:47.856][12391, 12476][DialogManager][, , 0][startShowDialog WAIT_SHOW:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:47.856][12391, 12391][DialogManager][, , 0][startShowDialog showDialog:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:47.856][12391, 12391][DialogManager][, , 0][startShowDialog showDialog fail:ADOLESCENT_MODEL
+[I][2020-10-15 +8.0 17:24:47.856][12391, 12476][DialogManager][, , 0][removeDialogEvent:ADOLESCENT_MODEL， needShowNext：true
+[I][2020-10-15 +8.0 17:24:47.856][12391, 12476][DialogManager][, , 0][removeDialogEvent:ADOLESCENT_MODEL timer.cancel
+[I][2020-10-15 +8.0 17:24:47.857][12391, 12476][DialogManager][, , 0][startShowDialog
+[I][2020-10-15 +8.0 17:24:47.857][12391, 12476][DialogManager][, , 0][First event:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.857][12391, 12476][DialogManager][, , 0][startShowDialog WAIT_SHOW:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.857][12391, 12391][DialogManager][, , 0][startShowDialog showDialog:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:47.864][12391, 12391][DialogManager][, , 0][hallShowCount:5
+[I][2020-10-15 +8.0 17:24:47.920][12391, 13112][a][, , 0][preLoadSo onProcess() process=39 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:47.924][12391, 13112][a][, , 0][preLoadSo onProcess() process=39 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.031][12391, 13120][a][, , 0][preLoadSo onProcess() process=12 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.032][12391, 13120][a][, , 0][preLoadSo onProcess() process=12 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.039][12391, 12391][Ingkee][, , 0][voicesign:clear
+[I][2020-10-15 +8.0 17:24:48.042][12391, 13112][a][, , 0][preLoadSo onProcess() process=41 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.043][12391, 13112][a][, , 0][preLoadSo onProcess() process=41 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.048][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][nearbylive146190540HallPreviewHelper----mPreviewTask----startPreview---delayMillis =10-----
+[I][2020-10-15 +8.0 17:24:48.049][12391, 12391][FIND_AUDIO_EXCEPTION][, , 0][nearbylive146190540HallPreviewHelper----isCanPreview()-----isCanPreview = false-----mIsForeground=false
+[I][2020-10-15 +8.0 17:24:48.049][12391, 12391][Ingkee][, , 0][NearLiveViewrequestRecData  Success mRecOffset = 30 mRecHasMore = true
+[I][2020-10-15 +8.0 17:24:48.118][12391, 12391][bubble123][, , 0][url:http://voc.inke.cn/MTU4NzY0MzIzNDY2OSMzNzIjdm9j.voc	 length:24''
+[I][2020-10-15 +8.0 17:24:48.133][12391, 12391][Ingkee][, , 0][voicesign:exposure
+[I][2020-10-15 +8.0 17:24:48.134][12391, 13120][a][, , 0][preLoadSo onProcess() process=14 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.136][12391, 13120][a][, , 0][preLoadSo onProcess() process=14 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.258][12391, 13120][a][, , 0][preLoadSo onProcess() process=15 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.260][12391, 13120][a][, , 0][preLoadSo onProcess() process=15 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.344][12391, 12436][ChatComponent log: %s][, , 0][ChatDBManager.deleteContacts()
+[I][2020-10-15 +8.0 17:24:48.345][12391, 12436][ChatComponent log: %s][, , 0][ChatDBManager.updateContacts() size: 0
+[I][2020-10-15 +8.0 17:24:48.345][12391, 12436][ChatComponent log: %s][, , 0][ChatDBManager.insertOrReplaceContacts()
+[I][2020-10-15 +8.0 17:24:48.373][12391, 13120][a][, , 0][preLoadSo onProcess() process=25 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.374][12391, 13120][a][, , 0][preLoadSo onProcess() process=25 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.398][12391, 13112][a][, , 0][preLoadSo onProcess() process=48 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.399][12391, 13112][a][, , 0][preLoadSo onProcess() process=48 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.501][12391, 13120][a][, , 0][preLoadSo onProcess() process=32 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.502][12391, 13120][a][, , 0][preLoadSo onProcess() process=32 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.511][12391, 12431][Ingkee][, , 0][LogNetWorCheckTimerTask 定时发送消息
+[I][2020-10-15 +8.0 17:24:48.545][12391, 13112][a][, , 0][preLoadSo onProcess() process=51 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.547][12391, 13112][a][, , 0][preLoadSo onProcess() process=51 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.728][12391, 13112][a][, , 0][preLoadSo onProcess() process=52 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.729][12391, 13112][a][, , 0][preLoadSo onProcess() process=52 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.844][12391, 13112][a][, , 0][preLoadSo onProcess() process=55 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.845][12391, 13112][a][, , 0][preLoadSo onProcess() process=55 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.925][12391, 12391][HomeHallDynamicAdapter][, , 0][onCreateBaseViewHolder viewType: 20003
+[I][2020-10-15 +8.0 17:24:48.965][12391, 13112][a][, , 0][preLoadSo onProcess() process=56 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.965][12391, 13112][a][, , 0][preLoadSo onProcess() process=56 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:48.975][12391, 12391][HomeHallDynamicAdapter][, , 0][onCreateBaseViewHolder viewType: 1004
+[I][2020-10-15 +8.0 17:24:49.089][12391, 13120][a][, , 0][preLoadSo onProcess() process=36 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.093][12391, 13120][a][, , 0][preLoadSo onProcess() process=36 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.194][12391, 13120][a][, , 0][preLoadSo onProcess() process=42 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.195][12391, 13120][a][, , 0][preLoadSo onProcess() process=42 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.363][12391, 13120][a][, , 0][preLoadSo onProcess() process=50 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.368][12391, 13120][a][, , 0][preLoadSo onProcess() process=50 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.416][12391, 13112][a][, , 0][preLoadSo onProcess() process=60 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.417][12391, 13112][a][, , 0][preLoadSo onProcess() process=60 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.680][12391, 13120][a][, , 0][preLoadSo onProcess() process=67 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.680][12391, 13120][a][, , 0][preLoadSo onProcess() process=67 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.740][12391, 13112][a][, , 0][preLoadSo onProcess() process=62 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.741][12391, 13112][a][, , 0][preLoadSo onProcess() process=62 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.783][12391, 13120][a][, , 0][preLoadSo onProcess() process=72 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.785][12391, 13120][a][, , 0][preLoadSo onProcess() process=72 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:49.823][12391, 12391][Ingkee][, , 0][b requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:49.827][12391, 12391][Ingkee][, , 0][IKLocation Start Location!
+[I][2020-10-15 +8.0 17:24:49.828][12391, 12391][Ingkee][, , 0][b requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:49.828][12391, 12391][SameCityView][, , 0][onEventMainThread ==== 5===== hasLocationPermission
+[I][2020-10-15 +8.0 17:24:49.828][12391, 12391][Ingkee][, , 0][SameCityViewrequestOnceLocationUpdates start  
+[I][2020-10-15 +8.0 17:24:49.828][12391, 12391][Ingkee][, , 0][SameCityView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:49.829][12391, 12391][Ingkee][, , 0][onResume firstResume:false
+[I][2020-10-15 +8.0 17:24:49.836][12391, 12391][[InkeCommand] showInkeCommand][, , 0][ [MainActivity, ]
+[I][2020-10-15 +8.0 17:24:49.836][12391, 12391][Ingkee][, , 0][[InkeCommand] clip data == null
+[I][2020-10-15 +8.0 17:24:49.836][12391, 12391][[InkeCommand] liveId fetch from system clipboard: %s][, , 0][
+[I][2020-10-15 +8.0 17:24:49.837][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Resume: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:49.875][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.onResume()
+[I][2020-10-15 +8.0 17:24:49.875][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$FloatLiveCallback.resume()
+[I][2020-10-15 +8.0 17:24:49.875][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$AudioRecEntryCallback.resume()
+[E][2020-10-15 +8.0 17:24:49.876][12391, 12391][Ingkee][, , 0][DialogManager MainActivity onResume
+[I][2020-10-15 +8.0 17:24:49.886][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:49.887][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:49.888][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:49.888][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:49.897][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:49.897][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:50.017][12391, 13112][a][, , 0][preLoadSo onProcess() process=65 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.017][12391, 13112][a][, , 0][preLoadSo onProcess() process=65 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.054][12391, 13120][a][, , 0][preLoadSo onProcess() process=82 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.054][12391, 13120][a][, , 0][preLoadSo onProcess() process=82 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.138][12391, 13112][a][, , 0][preLoadSo onProcess() process=68 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.139][12391, 13112][a][, , 0][preLoadSo onProcess() process=68 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.270][12391, 13120][a][, , 0][preLoadSo onProcess() process=86 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.273][12391, 13120][a][, , 0][preLoadSo onProcess() process=86 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.281][12391, 13120][a][, , 0][preLoadSo onProcess() process=100 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.282][12391, 13120][a][, , 0][preLoadSo onProcess() process=100 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.310][12391, 13112][a][, , 0][preLoadSo onProcess() process=68 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.310][12391, 13112][a][, , 0][preLoadSo onProcess() process=68 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.410][12391, 13112][a][, , 0][preLoadSo onProcess() process=79 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.410][12391, 13112][a][, , 0][preLoadSo onProcess() process=79 soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.439][12391, 12391][Ingkee][, , 0][SameCityView IKLocation success!  latitude = 39.9997719 longitude = 116.4864054
+[I][2020-10-15 +8.0 17:24:50.439][12391, 12391][Ingkee][, , 0][SameCityView IKLocation success!  cost = 611
+[I][2020-10-15 +8.0 17:24:50.452][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:50.452][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:50.452][12391, 12391][Ingkee][, , 0][notify SameCityView location success
+[I][2020-10-15 +8.0 17:24:50.452][12391, 12391][Ingkee][, , 0][notify b location success
+[I][2020-10-15 +8.0 17:24:50.452][12391, 12391][Ingkee][, , 0][notify LocatePromptView location success
+[I][2020-10-15 +8.0 17:24:50.453][12391, 12391][Ingkee][, , 0][IKLocation End Location!
+[I][2020-10-15 +8.0 17:24:50.504][12391, 13120][a][, , 0][preLoadSo onCompleted() soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.504][12391, 13120][a][, , 0][preLoadSo onCompleted() filepath=/data/user/0/com.meelive.ingkee/app_libs/meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.504][12391, 13120][c][, , 0][preLoadSo() installNativeLibraryPath() 
+[I][2020-10-15 +8.0 17:24:50.516][12391, 13120][c][, , 0][preLoadSo() installNativeLibraryPath() isInstallNativeLibraryPath=true
+[I][2020-10-15 +8.0 17:24:50.516][12391, 13120][a][, , 0][preLoadSo onCompleted() soFileName=meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.516][12391, 13120][a][, , 0][preLoadSo onCompleted() filepath=/data/user/0/com.meelive.ingkee/app_libs/meishe_so_v1
+[I][2020-10-15 +8.0 17:24:50.517][12391, 13120][c][, , 0][preLoadSo() installNativeLibraryPath() 
+[I][2020-10-15 +8.0 17:24:50.517][12391, 13120][c][, , 0][preLoadSo() installNativeLibraryPath() isInstallNativeLibraryPath=true
+[I][2020-10-15 +8.0 17:24:51.016][12391, 12391][SameCityView][, , 0][requestCallback ==== 6===== RefreshData
+[I][2020-10-15 +8.0 17:24:51.037][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:51.038][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:51.051][12391, 12391][Ingkee][, , 0][IKLocation Start GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:51.051][12391, 12391][Ingkee][, , 0][IKLocation End GetLastKnownLocation!
+[I][2020-10-15 +8.0 17:24:51.052][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:51.053][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:51.323][12391, 12391][Ingkee][, , 0][voicesign:clear
+[I][2020-10-15 +8.0 17:24:51.327][12391, 12391][Ingkee][, , 0][voicesign:exposure
+[I][2020-10-15 +8.0 17:24:52.609][12391, 12391][DialogManager][, , 0][SOCIAL_PLAY_GUIDE : dismiss
+[I][2020-10-15 +8.0 17:24:52.810][12391, 13225][DialogManager][, , 0][Timer removeAndShowNextEvent run:SOCIAL_PLAY_GUIDE
+[I][2020-10-15 +8.0 17:24:52.811][12391, 12476][DialogManager][, , 0][removeDialogEvent:SOCIAL_PLAY_GUIDE， needShowNext：true
+[I][2020-10-15 +8.0 17:24:52.811][12391, 12476][DialogManager][, , 0][removeDialogEvent:SOCIAL_PLAY_GUIDE timer.cancel
+[I][2020-10-15 +8.0 17:24:52.811][12391, 12476][DialogManager][, , 0][startShowDialog
+[I][2020-10-15 +8.0 17:24:52.811][12391, 12476][DialogManager][, , 0][startShowDialog isEmpty
+[I][2020-10-15 +8.0 17:24:52.811][12391, 12476][DialogManager][, , 0][set isHallManaging false
+[I][2020-10-15 +8.0 17:24:54.596][12391, 12391][ResourceManagerServiceImpl][, , 0][[downloadPreloadFile]
+[I][2020-10-15 +8.0 17:24:54.599][12391, 12391][ResourceManagerServiceImpl][, , 0][[downloadPreloadFile] mPreloadDownloadInfos not empty
+[I][2020-10-15 +8.0 17:24:56.277][12391, 13043][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.a.t@d646283
+[I][2020-10-15 +8.0 17:24:56.289][12391, 13093][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=9}]
+[I][2020-10-15 +8.0 17:24:56.452][12391, 12391][zb123][, , 0][开始下载Spine礼物资源
+[I][2020-10-15 +8.0 17:24:56.453][12391, 12436][d][, , 0][[downloadSpineZipResourceList] RxExecutors.Computation.execute
+[I][2020-10-15 +8.0 17:24:57.794][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Pause: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:57.798][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate.onPause()
+[I][2020-10-15 +8.0 17:24:57.799][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$FloatLiveCallback.pause()
+[I][2020-10-15 +8.0 17:24:57.799][12391, 12391][Ingkee][, , 0][MainIncreaseViewDelegate$AudioRecEntryCallback.pause()
+[I][2020-10-15 +8.0 17:24:57.828][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity onSaveInstance: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:57.832][12391, 12391][zb123456][, , 0][onSaveInstanceState
+[I][2020-10-15 +8.0 17:24:57.870][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Stop: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+[I][2020-10-15 +8.0 17:24:57.872][12391, 12391][Ingkee][, , 0][ServerInfoComponent::onAppBackground
+[I][2020-10-15 +8.0 17:24:57.872][12391, 12391][LegacyComponent][, , 0][onAppBackground
+[I][2020-10-15 +8.0 17:24:57.872][12391, 12391][Ingkee][, , 0][startLogNetWorCheckTimer 结束timer
+[I][2020-10-15 +8.0 17:24:57.875][12391, 12391][Ingkee][, , 0][im_voice:appDie:unreadCount：48
+[I][2020-10-15 +8.0 17:24:57.876][12391, 12391][Ingkee][, , 0][unread_log:appDie
+[I][2020-10-15 +8.0 17:24:57.878][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:57.880][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:57.886][12391, 12391][Ingkee][, , 0][LocatePromptView requestOnceLocationUpdates
+[I][2020-10-15 +8.0 17:24:58.892][12391, 12391][Ingkee][, , 0][im_voice:appDie:unreadCount：48
+[I][2020-10-15 +8.0 17:24:58.893][12391, 12391][Ingkee][, , 0][unread_log:appDie
+[I][2020-10-15 +8.0 17:24:58.895][12391, 12391][Ingkee][, , 0][(BASE_INFO) Activity Destroy: com.meelive.ingkee.business.main.entry.legacy.MainActivity@319adf7
+~~~~~ end of mmap ~~~~~[13252,13300][2020-10-15 +0800 17:25:00]

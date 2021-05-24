@@ -1,0 +1,281 @@
+{
+	"dm_error": 0,
+	"error_msg": "操作成功",
+	"user": {
+		"id": 22032478,
+		"stat": 68,
+		"unset_stat": 4,
+		"unset_popup": {
+			"image": "http://img.ikstatic.cn/MTU5Njc2NzA0MzYwNCMxOTUjcG5n.png",
+			"tip": "完成任务即可领取专属搭讪礼物~",
+			"title1": "上传清晰头像",
+			"title2": "资料完善度达40%"
+		},
+		"nick": "布鲁马",
+		"description": "",
+		"portrait": "http://img.ikstatic.cn/MTYxMjUxMDQzNzIzNyMzMjEjZ2lm.gif",
+		"albums": ["http://img.ikstatic.cn/MTYxMjUwODQ2MjE3MiM1MzMjanBn.jpg"],
+		"gif_album_enable": true,
+		"vip_info": {
+			"end_time": "1970-01-01T08:00:00+08:00",
+			"end_date": "1970-01-01",
+			"is_vip": false,
+			"is_display": true,
+			"copywriting": "映客VIP重磅上线 多种权益低价享",
+			"vip_icon": "https://img.ikstatic.cn/MTYwNTI0OTczNzI5MCM2MjgjcG5n.png",
+			"vip_tab": "https://testqaboc.inke.cn/react/innerapp-2020/vip/entry/index.html?from=me&isWebFullScreen=true&isBatteryWhite=true&isShowCustomNavBar=true",
+			"public_chat_vip_icon": ""
+		},
+		"gender": 1,
+		"profession": "Ta好像忘记写职业了",
+		"birth": "",
+		"age": 0,
+		"hometown": "",
+		"location": "北京",
+		"register_at": 1595003218,
+		"sex": 1,
+		"verified_reason": "动态认证测试",
+		"third_platform": "",
+		"emotion": "保密",
+		"inke_verify": 1,
+		"verified": 604,
+		"extra_resource_id": 937,
+		"verified_prefix": "认证: ",
+		"gmutex": 0,
+		"level": 75,
+		"rank_veri": 604,
+		"veri_info": "动态认证测试",
+		"verify_list": [{
+			"type": "platform",
+			"verified_prefix": "",
+			"id": 604,
+			"reason": "动态认证测试",
+			"expire_at": 1896509060,
+			"expire_at_str": "2030.02.05到期",
+			"is_selected": true,
+			"extra_resource_id": 937
+		}, {
+			"type": "other",
+			"verified_prefix": "",
+			"id": 87,
+			"reason": "123123",
+			"expire_at": 32503651199,
+			"expire_at_str": "2999.12.31到期",
+			"is_selected": false,
+			"extra_resource_id": 0
+		}, {
+			"type": "rank",
+			"verified_prefix": "等级称号: ",
+			"id": 10,
+			"reason": "暖男",
+			"expire_at": -1,
+			"expire_at_str": "永久有效",
+			"is_selected": false,
+			"extra_resource_id": 0
+		}],
+		"introduction_v2": null,
+		"liverank": {
+			"dis_score": 1,
+			"isLevel": 0,
+			"is_gray": 0,
+			"level": 0,
+			"level_maxed": 0,
+			"old_res": 0,
+			"pic": "",
+			"privilege_total_count": 0,
+			"privilege_unlock_count": 0,
+			"rate": 0,
+			"score": 1240,
+			"stage_match": null,
+			"uid": 22032478
+		},
+		"liverank_link": "https://testact.inke.cn/app/growth/growth-system-anchor.html",
+		"wealth": {
+			"level": 7,
+			"income": 27303061,
+			"consume": 37018,
+			"rate": 0.3509,
+			"cur_level_min_consume": 30000,
+			"cur_level_max_consume": 49999
+		},
+		"wealth_link": "https://testqaboc.inke.cn/react/innerapp/wealth-level/index.html",
+		"rank": {
+			"boy_info": "暖男",
+			"current_value": 62425,
+			"girl_info": "森女",
+			"id": 22032478,
+			"level": 75,
+			"next_diff": 441575,
+			"rank_veri": 10,
+			"total": 12383425,
+			"rate": 0.12385912698412699,
+			"privilege_total_count": 15,
+			"privilege_unlock_count": 7
+		},
+		"user_level": {
+			"boy_info": "暖男",
+			"current_value": 62425,
+			"girl_info": "森女",
+			"id": 22032478,
+			"level": 75,
+			"next_diff": 441575,
+			"rank_veri": 10,
+			"total": 12383425,
+			"rate": 0.12385912698412699,
+			"privilege_total_count": 15,
+			"privilege_unlock_count": 7
+		},
+		"wechat_info": {
+			"stat": -1
+		},
+		"unlock_privilege_count": 7,
+		"verify_extra": {
+			"show": true,
+			"new_portrait_album": [{
+				"status": 1,
+				"img": "http://img.ikstatic.cn/MTYxMjUxMDQzNzIzNyMzMjEjZ2lm.gif",
+				"tips": "头像审核中"
+			}, {
+				"status": 1,
+				"img": "http://img.ikstatic.cn/MTYxMjUwODQ2MjE3MiM1MzMjanBn.jpg"
+			}]
+		},
+		"privilege_info": {
+			"activity_head_border": 0,
+			"badges": [{
+				"icon": 0,
+				"pos": 5
+			}],
+			"billboard_type": "",
+			"dialog_info": {
+				"title": {
+					"user_card_res": 145
+				}
+			},
+			"family_medal_info": {
+				"avatar": "",
+				"chat_room_id": "",
+				"display_id": "",
+				"fame": 0,
+				"family_medal": "",
+				"family_medal_icon": "",
+				"fund": 0,
+				"guard_capacity": 0,
+				"guard_size": 0,
+				"id": 0,
+				"intro": "",
+				"level": 0,
+				"manager_capacity": 0,
+				"manager_size": 0,
+				"medal_icon_elite": "",
+				"medal_icon_manager": "",
+				"medal_icon_member": "",
+				"medal_icon_owner": "",
+				"members_capacity": 0,
+				"members_size": 0,
+				"name": "",
+				"owner": 0
+			},
+			"family_member_identity": 0,
+			"fans_club_info": {
+				"fans_bg_icon": 353,
+				"fans_bg_url": 554,
+				"fans_club_name": "",
+				"fans_guard_icon": 398,
+				"fans_level_icon": 0,
+				"fans_type": 0,
+				"fans_type_text": ""
+			},
+			"fans_club_info_gray": {
+				"fans_bg_icon": 472,
+				"fans_bg_url": 554,
+				"fans_club_name": "",
+				"fans_guard_icon": 398,
+				"fans_level_icon": 0,
+				"fans_type": 0,
+				"fans_type_text": ""
+			},
+			"fans_icon_status": 2,
+			"fans_level": 0,
+			"guard_id": 0,
+			"manager_icon": 0,
+			"medal_info": {
+				"count": 0,
+				"link": "https://testqaboc.inke.cn/react/innerapp/medal-wall/index.html#/home?isWebFullScreen=true&isBatteryWhite=true&isShowCustomNavBar=true",
+				"medals": []
+			},
+			"nobility_code": 0,
+			"nobility_head_icon": 0,
+			"nobility_head_icon_v2": 0,
+			"nobility_head_icon_v3": 0,
+			"nobility_head_icon_v4": 0,
+			"nobility_icon": 0,
+			"nobility_icon_v2": 0,
+			"nobility_icon_v3": 0,
+			"nobility_link": "inke://pname=rn&moduleName=PrivilegeSystem&tab=1&live_uid=0&aid=22032478",
+			"nobility_name": "",
+			"rank": 0,
+			"rank_icon": 0,
+			"vip_info": {
+				"end_date": "",
+				"end_time": "0001-01-01T00:00:00Z",
+				"is_vip": false,
+				"uid": 22032478,
+				"vip_icon": "https://img.ikstatic.cn/MTYwNTI0OTczNzI5MCM2MjgjcG5n.png"
+			}
+		},
+		"fans_club_info": {
+			"club_accompany": 0,
+			"club_flub": 0,
+			"club_flub_income": 0,
+			"club_name": "真爱团",
+			"commander_url": "http://testqaboc.inke.cn/react/innerapp/fans-group/index.html",
+			"fans_bg_icon": 353,
+			"fans_gift_num": 0,
+			"fans_guard_icon": 398,
+			"fans_medal_bg": 591,
+			"fans_medal_bg_url": "http://img.ikstatic.cn/MTU2OTMwODg3MjM4NyMyOTMjcG5n.png",
+			"fans_medal_icon": 713,
+			"fans_medal_icon_url": "http://img.ikstatic.cn/MTU3NDkzNDE4NDk0OCMzNDEjcG5n.png",
+			"fans_medal_level": 0,
+			"fans_medal_level_url": "",
+			"fans_num": 0,
+			"footer_text": "",
+			"month_accompany_rank": "",
+			"month_accompany_url": "https://testqaboc.inke.cn/react/innerapp/love-list/index.html?from=plugin&inkewtype=web&inkewid=love_list_201912&inkewname=love_list_201912&is_from=fullscreen&tab=0",
+			"month_text": "",
+			"month_url": "",
+			"personalfansclublist_url": "inke://pname=personalfansclublist&anchor=22032478",
+			"personalhome_url": "inke://user=22032478&type=5&pname=personalhome",
+			"portrait": "http://img.ikstatic.cn/MTYxMjUxMDQzNzIzNyMzMjEjZ2lm.gif",
+			"question_url": "http://testqaboc.inke.cn/react/innerapp-2020/new-fans-rule/index.html?from=banner&inkewtype=web&inkewid=new_fans_rule_2020&inkewname=new_fans_rule_202004",
+			"rename_url": "http://testqaboc.inke.cn/innerapp/fans-group/rename/index.html",
+			"set_commander_msg": "真爱团人数>=10人,可设置",
+			"slogan_set_url": "http://testqaboc.inke.cn/react/innerapp/propagate-words/index.html"
+		},
+		"guard_star_info": null,
+		"medal_info": {
+			"count": 0,
+			"link": "https://testqaboc.inke.cn/react/innerapp/medal-wall/index.html#/home?isWebFullScreen=true&isBatteryWhite=true&isShowCustomNavBar=true",
+			"medals": []
+		},
+		"last_audio_desc_stat": 0,
+		"relation_link": "曾擦肩而过",
+		"pk_rank_info": {
+			"back_ground": "https://img.ikstatic.cn/MTYxMTIyNTE1Nzk0MiMxMTQjcG5n.png",
+			"back_side_str": "第一赛季 青铜Ⅰ",
+			"back_side_title": "排位成就",
+			"icon_not_digit": "https://img.ikstatic.cn/MTYxMTIyMDExMTAxNiM3NDQjcG5n.png",
+			"level_icon": "https://img.ikstatic.cn/MTYxMTIxNjk0NjM3NyMyNjQjcG5n.png",
+			"level_percent": 0,
+			"level_str": "青铜Ⅰ",
+			"level_str_color": "#69E9D5",
+			"next_level_score": 10,
+			"score_start": 0,
+			"show_title": "排位等级",
+			"upgrade_icon": "https://img.ikstatic.cn/MTYxMTU4MDczMzM5MyMgOTUjcG5n.png",
+			"upgrade_svga": "http://m4a.inke.cn/MTYxMTU3NjUzMjkyMCM4NDMjbTRh.m4a",
+			"user_score": 0
+		}
+	}
+}

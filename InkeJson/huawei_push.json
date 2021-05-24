@@ -1,0 +1,31 @@
+{
+    "validate_only": false,
+    "message": {
+        "notification": {
+            "title": "message title ",
+            "body": "message body"
+        },
+        "android": {
+            "notification": {
+                "click_action": {
+                    "type": 2,
+                    "url": "https://example.com"
+                },
+                "badge": {
+                    "add_num": 1,  // 固定为1
+                    "class": "com.huawei.codelabpush.MainActivity",
+                    // "set_num": 10 暂时不传 
+                }
+            },
+            "ttl": "1000"
+        },
+        "token": [
+            "pushtoken1"
+        ]
+    }
+}
+
+0435
+
+
+

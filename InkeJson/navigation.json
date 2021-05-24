@@ -1,0 +1,27 @@
+{
+    "dm_error": 0,
+    "error_msg": "操作成功",
+    "tabs": [{
+      "offline_time": 1669737600,
+      "selected": 0,
+      "tab_key": "",
+      "tab_id": "discover",
+      "tab_title": "发现",
+      "icon": "http://img2.inke.cn/MTUyNjAyNDkxNDYxMSMxMDgjanBn.jpg"
+    }, {
+      "offline_time": 1661875200,
+      "selected": 1,
+      "tab_key": "1C2076736E3D02B6",
+      "tab_id": "recommend",
+      "tab_title": "直播",
+      "icon": "http://img2.inke.cn/MTUyNjAyNDkxNDYxMSMxMDgjanBn.jpg"
+    }, {
+      "offline_time": 1696164480,
+      "selected": 0,
+      "tab_key": "D8AD8E73B57E391B",
+      "tab_id": "feed",
+      "tab_title": "IN视频",
+      "icon": "http://img2.inke.cn/MTUyNjAyNDkxNDYxMSMxMDgjanBn.jpg"
+    }],
+    "action": "on"
+  }

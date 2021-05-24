@@ -1,0 +1,135 @@
+{
+	"dm_error": 0,
+	"error_msg": "操作成功",
+	"resource": {
+		"room_header_content_url": "https://img.ikstatic.cn/MTU4ODIyNzY5OTc1NCM1NDQjcG5n.png",
+		"room_body_content": "恭喜获得和风戏雨送的红包",
+		"room_background_image_url": "https://img.ikstatic.cn/MTU3NjYzNjUxODQxNyM0OTMjcG5n.png",
+		"desc_content": "2020年04月27日-05月03日",
+		"background_image_url": "https://img.ikstatic.cn/MTU3NjYzNjQ4NDU5MCMzODAjcG5n.png",
+		"receive_button_image_url": "https://img.ikstatic.cn/MTU4ODIzMjMxNjYwOCMxNTUjcG5n.png",
+		"big_background_title": "距离你不到0.1千米的主播",
+		"big_background_content": "给你发了一个大红包",
+		"anchor_nickname": "和风戏雨",
+		"big_unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODI1MTg4MDUxNyMzNDAjcG5n.png",
+		"user_group": "anchor_match_nearby"
+	},
+	"config": {
+		"receive_button_link": "inke://live=1585558324118237&user=2598778&pname=room&ik_enter=anchor_service&enterRoomType=anchor_service",
+		"need_hall_pop": 1,
+		"need_user_pop": 0,
+		"unreceived_task_id": 21
+	},
+	"week_task": {
+		"type": 2,
+		"type_name": "七天累计登录",
+		"start_time": "2020年04月27日",
+		"end_time": "2020年05月03日",
+		"items": [{
+			"task_id": 21,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEzNjE3OSM0MzAjcG5n.png",
+			"task_desc": "第一天",
+			"task_sort": 1,
+			"status": 1
+		}, {
+			"task_id": 81,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEzNjE3OSM0MzAjcG5n.png",
+			"task_desc": "第二天",
+			"task_sort": 2,
+			"status": 0
+		}, {
+			"task_id": 82,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEzNjE3OSM0MzAjcG5n.png",
+			"task_desc": "第三天",
+			"task_sort": 3,
+			"status": 0
+		}, {
+			"task_id": 83,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEzNjE3OSM0MzAjcG5n.png",
+			"task_desc": "第四天",
+			"task_sort": 4,
+			"status": 0
+		}, {
+			"task_id": 84,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEzNjE3OSM0MzAjcG5n.png",
+			"task_desc": "第五天",
+			"task_sort": 5,
+			"status": 0
+		}, {
+			"task_id": 85,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEzNjE3OSM0MzAjcG5n.png",
+			"task_desc": "第六天",
+			"task_sort": 6,
+			"status": 0
+		}, {
+			"task_id": 86,
+			"type": 2,
+			"award": [{
+				"award_id": 30004,
+				"award_name": "映豆",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NjAyODM3MyM4NTMjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}, {
+				"award_id": 30003,
+				"item_id": 323,
+				"award_name": "棒棒糖",
+				"award_icon": "https://img.ikstatic.cn/MTU3Njc0NTk4NzQ4MiM3MDEjcG5n.png",
+				"award_num": 1,
+				"award_pr": 1
+			}],
+			"unreceived_award_image_url": "https://img.ikstatic.cn/MTU4ODIxNzEyODU1MyM4MzgjcG5n.png",
+			"task_desc": "第七天",
+			"task_sort": 7,
+			"status": 0
+		}]
+	}
+}

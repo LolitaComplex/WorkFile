@@ -1,0 +1,18 @@
+1. androidx.cardview.widget
+2. androidx.recyclerview.widget
+3. androidx.appcompat.widget
+4. androidx.constraintlayout.widget
+4. androidx.fragment.app
+5. androidx.coordinatorlayout.widget
+6. com.google.android.material.tabs.TabLayout
+7. com.google.android.material.appbar.AppBarLayout
+8. androidx.constraintlayout.widget.ConstraintLayout
+9. androidx.collection
+10. androidx.localbroadcastmanager.content
+11. androidx.customview.view
+12. androidx.multidex
+13. androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+
+
+androidx.recyclerview.widget.DiffUtil
+androidx.recyclerview.widget.SnapHelper

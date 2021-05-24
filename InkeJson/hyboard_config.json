@@ -1,0 +1,12 @@
+{
+	"dm_error": 0,
+	"error_msg": "success",
+	"data": {
+		"preload": 1,
+		"parload": 1,
+		"link": {
+			"url": "https://boc.inke.cn/react/tests/perf/index.html",
+			"delay": 5
+		}
+	}
+}

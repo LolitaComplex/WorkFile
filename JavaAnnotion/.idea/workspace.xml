@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e89db9e-8faf-4eed-b058-97d174f6fe30" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hJTW7BTvmwXqHzKRG8feEKUUHm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.doing.annotion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/doing/annotion" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GenericTest">
+    <configuration name="AtomicLoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doing.annotion.AtomicLoginTest" />
+      <module name="JavaAnnotion.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doing.annotion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doing.annotion.GenericTest" />
+      <module name="JavaAnnotion.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doing.annotion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongAccumulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doing.annotion.LongAccumulatorTest" />
+      <module name="JavaAnnotion.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doing.annotion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongAdderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doing.annotion.LongAdderTest" />
+      <module name="JavaAnnotion.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doing.annotion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpinLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doing.annotion.SpinLockTest" />
+      <module name="JavaAnnotion.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doing.annotion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GenericTest" />
+        <item itemvalue="Application.LongAccumulatorTest" />
+        <item itemvalue="Application.AtomicLoginTest" />
+        <item itemvalue="Application.LongAdderTest" />
+        <item itemvalue="Application.SpinLockTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e89db9e-8faf-4eed-b058-97d174f6fe30" name="Default Changelist" comment="" />
+      <created>1599728227662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599728227662</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1617682382531">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617682382531" />
+    <state x="483" y="74" key="#xdebugger.evaluate" timestamp="1617685012393">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="483" y="74" key="#xdebugger.evaluate/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685012393" />
+    <state width="1396" height="138" key="GridCell.Tab.0.bottom" timestamp="1617689867158">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041080" />
+    <state width="1396" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1617689867158" />
+    <state width="1396" height="138" key="GridCell.Tab.0.center" timestamp="1617689867157">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.0.center/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041077" />
+    <state width="1396" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1617689867157" />
+    <state width="1396" height="138" key="GridCell.Tab.0.left" timestamp="1617689867152">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.0.left/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041076" />
+    <state width="1396" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1617689867152" />
+    <state width="1396" height="138" key="GridCell.Tab.0.right" timestamp="1617689867157">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.0.right/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041078" />
+    <state width="1396" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1617689867157" />
+    <state width="1396" height="138" key="GridCell.Tab.1.bottom" timestamp="1617689867160">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041088" />
+    <state width="1396" height="138" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1617689867160" />
+    <state width="1396" height="138" key="GridCell.Tab.1.center" timestamp="1617689867159">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.1.center/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041083" />
+    <state width="1396" height="138" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1617689867159" />
+    <state width="1396" height="138" key="GridCell.Tab.1.left" timestamp="1617689867158">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.1.left/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041081" />
+    <state width="1396" height="138" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1617689867158" />
+    <state width="1396" height="138" key="GridCell.Tab.1.right" timestamp="1617689867160">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1396" height="138" key="GridCell.Tab.1.right/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617685041084" />
+    <state width="1396" height="138" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1617689867160" />
+    <state x="450" y="200" width="540" height="540" key="StructurePopup" timestamp="1617683482415">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="200" width="540" height="540" key="StructurePopup/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617683482415" />
+    <state x="88" y="16" key="new project wizard" timestamp="1617893825880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="88" y="16" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1617893825880" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1618235599754">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-1440.2560.1440@0.0.1440.900" timestamp="1617683828657" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1618235599754" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/com/doing/annotion/LongAdderTest.java</url>
+          <line>27</line>
+          <properties field="longAdder" class="com.doing.annotion.LongAdderTest.Task" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaAnnotion$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1600154395025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.doing.annotion.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaAnnotion$HappensBefore.ic" NAME="HappensBefore Coverage Results" MODIFIED="1608007786728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.doing.annotion.*</FILTER>
+    </SUITE>
+  </component>
+</project>

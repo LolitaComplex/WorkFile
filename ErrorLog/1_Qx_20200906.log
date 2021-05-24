@@ -1,0 +1,961 @@
+^^^^^^^^^^Aug 28 2019^^^20:17:18^^^^^^^^^^[18839,18839][2020-09-06 +0800 10:28:15]
+get mmap time: 0
+MARS_URL: 
+MARS_PATH: 
+MARS_REVISION: 
+MARS_BUILD_TIME: 2019-08-28 20:17:12
+MARS_BUILD_JOB: 
+log appender mode:0, use mmap:1
+cache dir space info, capacity:119412998144 free:33691754496 available:33691754496
+log dir space info, capacity:119412998144 free:33691754496 available:33691754496
+[I][2020-09-06 +8.0 10:28:15.069][18839, 18839][Qianxi][, , 0][-- Qianxi Logger Recorder Init --
+[E][2020-09-06 +8.0 10:28:15.070][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@858cc1c，onAppCreate 耗时：127ms，超过了80ms，需要优化！！！
+[D][2020-09-06 +8.0 10:28:15.070][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@5a7a025，onAppCreate 耗时：0ms
+[D][2020-09-06 +8.0 10:28:15.071][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@cc8a5fa，onAppCreate 耗时：0ms
+[D][2020-09-06 +8.0 10:28:15.071][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@d5d07ab，onAppCreate 耗时：0ms
+[D][2020-09-06 +8.0 10:28:15.072][18839, 18839][Qianxi][, , 0][<ComponentCenter> onAppCreate [ok], time: 165.7 ms
+[D][2020-09-06 +8.0 10:28:15.075][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component Init finished: [ok], time: 169.4 ms
+[D][2020-09-06 +8.0 10:28:16.446][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.ChannelConfigComponent@545f4dc，onAppReCreate 耗时：0ms
+[D][2020-09-06 +8.0 10:28:16.516][18839, 18839][从apk: %s][, , 0][/data/app/com.billion.qianxi-dStcbsNYga-1aKvUx0nJEg==/base.apk
+[D][2020-09-06 +8.0 10:28:16.625][18839, 18839][channelInfos: %s][, , 0][[null]
+[D][2020-09-06 +8.0 10:28:16.626][18839, 18839][Qianxi][, , 0][从apk中读取到渠道信息 info: null
+[I][2020-09-06 +8.0 10:28:16.626][18839, 18839][Qianxi][, , 0][最终的渠道信息 info: ChannelInfo{licenceId='35d0ce3af1142944', adCode='35d16a92099670e8', channelCode='TG62568'}
+[D][2020-09-06 +8.0 10:28:16.750][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.751][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.752][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.752][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.753][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.753][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[E][2020-09-06 +8.0 10:28:16.753][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.http.AtomComponent@a7bc837，onAppReCreate 耗时：307ms，超过了80ms，需要优化！！！
+[D][2020-09-06 +8.0 10:28:16.754][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.storage.StorageComponent@f3f31a4，onAppReCreate 耗时：0ms
+[D][2020-09-06 +8.0 10:28:16.754][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.perform.PerformComponent@7e04b0d，onAppReCreate 耗时：0ms
+[D][2020-09-06 +8.0 10:28:16.755][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.serviceinfo.ServiceInfoComponent@50fc410，onAppReCreate 耗时：1ms
+[I][2020-09-06 +8.0 10:28:16.814][18839, 18913][Qianxi][, , 0][Legacy no SMID, query start.
+[D][2020-09-06 +8.0 10:28:16.823][18839, 18916][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.824][18839, 18916][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:16.824][18839, 18916][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.271][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.273][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.273][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[E][2020-09-06 +8.0 10:28:17.278][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@858cc1c，onAppReCreate 耗时：523ms，超过了80ms，需要优化！！！
+[D][2020-09-06 +8.0 10:28:17.304][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.306][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.306][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.306][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@5a7a025，onAppReCreate 耗时：27ms
+[D][2020-09-06 +8.0 10:28:17.306][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@cc8a5fa，onAppReCreate 耗时：0ms
+[I][2020-09-06 +8.0 10:28:17.314][18839, 18839][Qianxi][, , 0][[push component] 进程启动注册推送服务
+[D][2020-09-06 +8.0 10:28:17.315][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@d5d07ab，onAppReCreate 耗时：9ms
+[D][2020-09-06 +8.0 10:28:17.316][18839, 18839][Qianxi][, , 0][<ComponentCenter> onAppReCreate [ok], time: 169.9 ms
+[D][2020-09-06 +8.0 10:28:17.319][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.ChannelConfigComponent@545f4dc，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:28:17.319][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.321][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.321][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.321][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.http.AtomComponent@a7bc837，onAppStartPermissionGranted 耗时：2ms
+[D][2020-09-06 +8.0 10:28:17.323][18839, 18948][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.324][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.storage.StorageComponent@f3f31a4，onAppStartPermissionGranted 耗时：2ms
+[D][2020-09-06 +8.0 10:28:17.324][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.perform.PerformComponent@7e04b0d，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:28:17.324][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.serviceinfo.ServiceInfoComponent@50fc410，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:28:17.325][18839, 18948][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.326][18839, 18948][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.326][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@858cc1c，onAppStartPermissionGranted 耗时：2ms
+[D][2020-09-06 +8.0 10:28:17.327][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.328][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.328][18839, 18839][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.328][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@5a7a025，onAppStartPermissionGranted 耗时：2ms
+[D][2020-09-06 +8.0 10:28:17.329][18839, 18951][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.329][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@cc8a5fa，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:28:17.329][18839, 18839][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@d5d07ab，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:28:17.329][18839, 18839][Qianxi][, , 0][<ComponentCenter> onStartPermissionGranted [ok], time: 169.9 ms
+[D][2020-09-06 +8.0 10:28:17.330][18839, 18951][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.330][18839, 18951][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.330][18839, 18951][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.331][18839, 18951][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:17.332][18839, 18951][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[I][2020-09-06 +8.0 10:28:17.391][18839, 18879][ShuzilmManager][, , 0][oaid = NA
+[I][2020-09-06 +8.0 10:28:17.451][18839, 18881][Qianxi][, , 0][Legacy SMID returned [DuwHvJip7dQCy1kzzYrjFiBugSqsHQ02zXyinh8i0pahXb3dojVElZsx40+7qL/jDsajflmbvEOxq3vblKLYkPeA]
+[D][2020-09-06 +8.0 10:28:17.451][18839, 18881][Qianxi][, , 0][storeSmid:DuwHvJip7dQCy1kzzYrjFiBugSqsHQ02zXyinh8i0pahXb3dojVElZsx40+7qL/jDsajflmbvEOxq3vblKLYkPeA
+[I][2020-09-06 +8.0 10:28:17.527][18839, 18945][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:28:17.721][18839, 19015][MicroMsg.PaySdk.WXFactory][, , 0][createWXAPI, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 10:28:17.739][18839, 19015][MicroMsg.SDK.WXApiImplV10][, , 0][<init>, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 10:28:17.741][18839, 19015][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:28:17.742][18839, 19015][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:28:17.751][18839, 19015][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:28:17.755][18839, 19015][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:28:17.755][18839, 19015][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 10:28:17.755][18839, 19015][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 10:28:17.755][18839, 19015][MicroMsg.SDK.WXApiImplV10][, , 0][register app com.billion.qianxi
+[I][2020-09-06 +8.0 10:28:17.758][18839, 19015][MicroMsg.SDK.MMessage][, , 0][send mm message, intent=Intent { act=com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER (has extras) }, perm=com.tencent.mm.permission.MM_MESSAGE
+[I][2020-09-06 +8.0 10:28:18.569][18839, 18839][Qianxi][, , 0][flush xlog...
+[I][2020-09-06 +8.0 10:28:19.260][18839, 18839][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 10:28:19.261][18839, 18839][Qianxi][, , 0][Doing messgae LoginSuccessEvent register
+[D][2020-09-06 +8.0 10:28:19.276][18839, 18839][Qianxi][, , 0][Doing timer LoginSuccessEvent register
+[I][2020-09-06 +8.0 10:28:19.549][18839, 18839][Qianxi][, , 0][UserManager laodUser. uid null
+[E][2020-09-06 +8.0 10:28:19.891][18839, 18839][Qianxi][, , 0][Doing permission LoginSuccessEvent register
+[W][2020-09-06 +8.0 10:28:19.935][18839, 18839][Qianxi][, , 0][Doing followLoad LoginSuccessEvent register
+[I][2020-09-06 +8.0 10:28:20.243][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:28:20.254][18839, 18839][IKLogUploadManager][, , 0][IKLogUploader is initialized.
+[D][2020-09-06 +8.0 10:28:20.259][18839, 18839][IKLogUploadManager][, , 0][querying log fetch task ...
+[D][2020-09-06 +8.0 10:28:20.294][18839, 19079][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:20.296][18839, 19079][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:28:20.297][18839, 19079][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[E][2020-09-06 +8.0 10:28:20.378][18839, 19089][IKLogUploadManager][, , 0][query log fetch task failed, caused by parse response failed!
+[I][2020-09-06 +8.0 10:28:21.807][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:28:26.854][18839, 18913][Qianxi][, , 0][Legacy has SMID.
+[I][2020-09-06 +8.0 10:29:19.925][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:29:21.816][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:30:19.931][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:30:21.817][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:31:19.933][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:31:21.814][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:32:19.933][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:32:21.816][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:32:45.068][18839, 18839][Qianxi][, , 0][flutter loginByPhone server res:{dm_error: 2001, error_msg: 验证码输入有误,请重试}
+[I][2020-09-06 +8.0 10:33:19.922][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:33:21.811][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:34:19.923][18839, 18839][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:34:21.812][18839, 18839][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:35:09.131][18839, 18839][Qianxi][, , 0][flush xlog...
+^^^^^^^^^^Aug 28 2019^^^20:17:18^^^^^^^^^^[19327,19327][2020-09-06 +0800 10:35:17]
+get mmap time: 0
+MARS_URL: 
+MARS_PATH: 
+MARS_REVISION: 
+MARS_BUILD_TIME: 2019-08-28 20:17:12
+MARS_BUILD_JOB: 
+log appender mode:0, use mmap:1
+cache dir space info, capacity:119412998144 free:33632378880 available:33632378880
+log dir space info, capacity:119412998144 free:33632378880 available:33632378880
+[I][2020-09-06 +8.0 10:35:17.445][19327, 19327][Qianxi][, , 0][-- Qianxi Logger Recorder Init --
+[I][2020-09-06 +8.0 10:35:17.501][19327, 19394][Qianxi][, , 0][Legacy has SMID.
+[D][2020-09-06 +8.0 10:35:17.541][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.542][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.543][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[E][2020-09-06 +8.0 10:35:17.548][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@7d6401a，onAppCreate 耗时：212ms，超过了80ms，需要优化！！！
+[D][2020-09-06 +8.0 10:35:17.578][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.579][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.580][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.580][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@ae1e9be，onAppCreate 耗时：32ms
+[D][2020-09-06 +8.0 10:35:17.580][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@e5c9a1f，onAppCreate 耗时：0ms
+[I][2020-09-06 +8.0 10:35:17.587][19327, 19327][Qianxi][, , 0][[push component] 进程启动注册推送服务
+[D][2020-09-06 +8.0 10:35:17.593][19327, 19414][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.593][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@f11ae17，onAppCreate 耗时：12ms
+[D][2020-09-06 +8.0 10:35:17.594][19327, 19327][Qianxi][, , 0][<ComponentCenter> onAppCreate [ok], time: 534.1 ms
+[D][2020-09-06 +8.0 10:35:17.595][19327, 19414][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.597][19327, 19414][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.603][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.ChannelConfigComponent@b982222，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:35:17.603][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.604][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.605][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.605][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.http.AtomComponent@74e8a70，onAppStartPermissionGranted 耗时：2ms
+[D][2020-09-06 +8.0 10:35:17.607][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.storage.StorageComponent@d3a3e6e，onAppStartPermissionGranted 耗时：2ms
+[D][2020-09-06 +8.0 10:35:17.607][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.perform.PerformComponent@7e6490f，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:35:17.607][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.serviceinfo.ServiceInfoComponent@7e9dd9c，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:35:17.608][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@7d6401a，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:35:17.608][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.610][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.611][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.611][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@ae1e9be，onAppStartPermissionGranted 耗时：4ms
+[D][2020-09-06 +8.0 10:35:17.611][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@e5c9a1f，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:35:17.612][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@f11ae17，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:35:17.613][19327, 19327][Qianxi][, , 0][<ComponentCenter> onStartPermissionGranted [ok], time: 553.4 ms
+[D][2020-09-06 +8.0 10:35:17.613][19327, 19327][Qianxi][, , 0][<ComponentCenter> Component Init finished: [ok], time: 554.3 ms
+[D][2020-09-06 +8.0 10:35:17.618][19327, 19417][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.623][19327, 19417][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.624][19327, 19417][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.624][19327, 19417][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.626][19327, 19417][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:35:17.626][19327, 19417][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[I][2020-09-06 +8.0 10:35:17.736][19327, 19357][ShuzilmManager][, , 0][oaid = NA
+[I][2020-09-06 +8.0 10:35:17.775][19327, 19411][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:35:17.997][19327, 19482][MicroMsg.PaySdk.WXFactory][, , 0][createWXAPI, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 10:35:18.000][19327, 19482][MicroMsg.SDK.WXApiImplV10][, , 0][<init>, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 10:35:18.001][19327, 19482][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:35:18.002][19327, 19482][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:35:18.018][19327, 19482][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:35:18.023][19327, 19482][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:35:18.023][19327, 19482][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 10:35:18.023][19327, 19482][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 10:35:18.023][19327, 19482][MicroMsg.SDK.WXApiImplV10][, , 0][register app com.billion.qianxi
+[I][2020-09-06 +8.0 10:35:18.025][19327, 19482][MicroMsg.SDK.MMessage][, , 0][send mm message, intent=Intent { act=com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER (has extras) }, perm=com.tencent.mm.permission.MM_MESSAGE
+[I][2020-09-06 +8.0 10:35:19.209][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:35:19.542][19327, 19327][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 10:35:19.543][19327, 19327][Qianxi][, , 0][Doing messgae LoginSuccessEvent register
+[D][2020-09-06 +8.0 10:35:19.558][19327, 19327][Qianxi][, , 0][Doing timer LoginSuccessEvent register
+[I][2020-09-06 +8.0 10:35:19.824][19327, 19327][Qianxi][, , 0][UserManager laodUser. uid null
+[E][2020-09-06 +8.0 10:35:20.167][19327, 19327][Qianxi][, , 0][Doing permission LoginSuccessEvent register
+[W][2020-09-06 +8.0 10:35:20.211][19327, 19327][Qianxi][, , 0][Doing followLoad LoginSuccessEvent register
+[I][2020-09-06 +8.0 10:35:20.527][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:35:20.538][19327, 19327][IKLogUploadManager][, , 0][IKLogUploader is initialized.
+[D][2020-09-06 +8.0 10:35:20.543][19327, 19327][IKLogUploadManager][, , 0][querying log fetch task ...
+[E][2020-09-06 +8.0 10:35:20.620][19327, 19523][IKLogUploadManager][, , 0][query log fetch task failed, caused by parse response failed!
+[I][2020-09-06 +8.0 10:35:22.549][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:35:49.432][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:36:19.649][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:36:20.263][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:36:22.543][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:36:49.825][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:37:19.948][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:37:20.197][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:37:22.519][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:37:50.084][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:38:17.677][19327, 19327][Qianxi][, , 0][flutter loginByPhone server res:{dm_error: 0, error_msg: 操作成功, uid: 100298, session: 20DIv6ZKk65uMLpBPMuRpfWlxMfOpi2CfMYs8PS0KvfIji1Di1pBspwi3i3}
+[I][2020-09-06 +8.0 10:38:17.723][19327, 19327][Qianxi][, , 0][flutter _onLogin :{"dm_error": 0,"uid": 100298,"error_msg": "操作成功","session": "20DIv6ZKk65uMLpBPMuRpfWlxMfOpi2CfMYs8PS0KvfIji1Di1pBspwi3i3"}
+[I][2020-09-06 +8.0 10:38:17.724][19327, 19327][LoginPlugin][, , 0][updateSession uid=100298 session=20DIv6ZKk65uMLpBPMuRpfWlxMfOpi2CfMYs8PS0KvfIji1Di1pBspwi3i3
+[D][2020-09-06 +8.0 10:38:17.725][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.728][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.728][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.729][19327, 19327][Qianxi][, , 0][准备登陆
+[D][2020-09-06 +8.0 10:38:17.729][19327, 19327][Qianxi][, , 0][准备登陆
+[D][2020-09-06 +8.0 10:38:17.729][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.731][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/IngkeeTest/user/loginresult.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.731][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//loginresult-visitor.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.736][19327, 19327][%s set() mModel:%s newModel:%s][, , 0][UserManager [null, {"first_login":false,"isVisitor":false,"is_new_device":false,"new_add":false,"session":"20DIv6ZKk65uMLpBPMuRpfWlxMfOpi2CfMYs8PS0KvfIji1Di1pBspwi3i3","uid":100298,"dm_error":0}]
+[D][2020-09-06 +8.0 10:38:17.736][19327, 19327][%s set() normal login][, , 0][UserManager
+[D][2020-09-06 +8.0 10:38:17.747][19327, 19327][Qianxi][, , 0][deserialize:cacheFilePath:/storage/emulated/0/Android/data/com.billion.qianxi/files/YimiTest/user//100298usermodel.cacheexists:false
+[D][2020-09-06 +8.0 10:38:17.748][19327, 19327][Qianxi][, , 0][用户登陆信息更新了，old: null, new: UserModel{id=100298, show_uid='', nick='', portrait='', gender=3, location='null', description='null', third_platform='null', rank_veri=0, veri_info='null', level=0, relation='null', isFollowing=false, emotion='null', inke_verify=0, hometown='null', verified='null', profession='null', verified_reason='null', birth='null', verify_type='null', verify_info='null', gmutex='null', ext=null, liverank=null, privilege_info=null, hang_pic='null', ptr='null'}
+[D][2020-09-06 +8.0 10:38:17.748][19327, 19327][Qianxi][, , 0][用户登陆信息更新了，old: null, new: UserModel{id=100298, show_uid='', nick='', portrait='', gender=3, location='null', description='null', third_platform='null', rank_veri=0, veri_info='null', level=0, relation='null', isFollowing=false, emotion='null', inke_verify=0, hometown='null', verified='null', profession='null', verified_reason='null', birth='null', verify_type='null', verify_info='null', gmutex='null', ext=null, liverank=null, privilege_info=null, hang_pic='null', ptr='null'}
+[D][2020-09-06 +8.0 10:38:17.797][19327, 19327][Qianxi][, , 0][登陆成功了
+[I][2020-09-06 +8.0 10:38:17.797][19327, 19327][Qianxi][, , 0][[push component] 登陆成功注册推送服务
+[I][2020-09-06 +8.0 10:38:17.807][19327, 19736][[push register v2] 注册极光推送][, , 0][1a0018970a739a43cc4
+[I][2020-09-06 +8.0 10:38:17.869][19327, 19327][Connection][, , 0][connect, reason: process start
+[I][2020-09-06 +8.0 10:38:17.874][19327, 19327][Connection][, , 0][onConnectStart() called, cost since last connect: 1811648499
+[I][2020-09-06 +8.0 10:38:17.930][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:38:17.942][19327, 19744][Connection][, , 0][onConnectSuccess，addr: 47.95.165.165:6104, cost: 69
+[I][2020-09-06 +8.0 10:38:17.946][19327, 19744][Connection][, , 0][onChannelActive() called
+[I][2020-09-06 +8.0 10:38:17.946][19327, 19744][HandshakeConnection][, , 0][1. channelActive, start handshake
+[I][2020-09-06 +8.0 10:38:17.947][19327, 19744][Handshake][, , 0][handshake
+[I][2020-09-06 +8.0 10:38:17.951][19327, 19327][[push register v2] 注册极光推送结果: ][, , 0][{"dm_error":0,"err_code":0,"err_msg":"success"}
+[I][2020-09-06 +8.0 10:38:17.963][19327, 19744][Handshake][, , 0][send handshake request success
+[I][2020-09-06 +8.0 10:38:17.975][19327, 19744][Handshake][, , 0][handshake response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4003}, seq=UInt16{0x1}, uid=UInt32{0}, session=UInt32{10003}, rescode=UInt16{0x0}, bodyLength=UInt16{0x82}, headLen=UInt32{0}, text='', headerInJson=''}
+[I][2020-09-06 +8.0 10:38:17.976][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HandshakeResultEvent{success=true, resCode=UInt16{0x0}, cost=29}]
+[I][2020-09-06 +8.0 10:38:17.978][19327, 19744][HandshakeConnection][, , 0][2. handshake success, start login
+[I][2020-09-06 +8.0 10:38:17.981][19327, 19744][Login][, , 0][login send success
+[I][2020-09-06 +8.0 10:38:17.981][19327, 19744][Connection][, , 0][receive first msg, cost since connected: 39, cost since last active: 35
+[I][2020-09-06 +8.0 10:38:17.996][19327, 19744][Login][, , 0][login response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4004}, seq=UInt16{0x2}, uid=UInt32{0}, session=UInt32{10003}, rescode=UInt16{0x0}, bodyLength=UInt16{0x66}, headLen=UInt32{0}, text='{"bus_buf": [{"gid":"c929f0f08d43b2333728e084c76dba9f","retcode":0}]}', headerInJson=''}
+[I][2020-09-06 +8.0 10:38:17.997][19327, 19744][Login][, , 0][login result, gid: c929f0f08d43b2333728e084c76dba9f, retCode: 0
+[I][2020-09-06 +8.0 10:38:17.997][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [LoginResultEvent{success=true, resCode=UInt16{0x0}, cost=18}]
+[I][2020-09-06 +8.0 10:38:17.999][19327, 19744][HandshakeConnection][, , 0][3. login success, prepared for business msg. Oh Ye!
+[I][2020-09-06 +8.0 10:38:18.124][19327, 19327][Qianxi][, , 0][flutter _onLogin u:{dm_error: 0, error_msg: 操作成功, user: {id: 100298, nick: 硕硕298, description: , portrait: http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg, videos: [], is_private_friend: false, gender: 1, profession: , education: , birth: , hometown: , location: , verified_reason: , emotion: 保密, inke_verify: 0, verified: 0, gmutex: 0, level: 1, zlevel: 5, zlevel_detail: {uid: 100298, level: 5, exp: 2072510, dis: 827490}, verify_extra: {tips: 10级开启多头像特权, uid: 100298, show: false, portrait_album: [{status: 1, type: portrait, img: http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg}], new_portrait_album: [{status: 1, type: portrait, img: http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg}]}, ext: {}, register_at: 1617000547, app_name: qianxi, updated: 1}}
+[I][2020-09-06 +8.0 10:38:18.140][19327, 19327][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":false,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:38:18.166][19327, 19327][Qianxi][, , 0][Doing messgae LoginSuccessEvent consume
+[D][2020-09-06 +8.0 10:38:18.174][19327, 19327][Qianxi][, , 0][Doing timer LoginSuccessEvent consume
+[E][2020-09-06 +8.0 10:38:18.175][19327, 19327][Qianxi][, , 0][Doing permission LoginSuccessEvent consume
+[W][2020-09-06 +8.0 10:38:18.178][19327, 19327][Qianxi][, , 0][Doing followLoad LoginSuccessEvent consume
+[I][2020-09-06 +8.0 10:38:18.184][19327, 19327][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 10:38:18.195][19327, 19327][Qianxi][, , 0][Doing messgae LoginSuccessEvent consume
+[D][2020-09-06 +8.0 10:38:18.198][19327, 19327][Qianxi][, , 0][Doing timer LoginSuccessEvent consume
+[E][2020-09-06 +8.0 10:38:18.232][19327, 19327][Qianxi][, , 0][Doing permission LoginSuccessEvent consume
+[W][2020-09-06 +8.0 10:38:18.235][19327, 19327][Qianxi][, , 0][Doing followLoad LoginSuccessEvent consume
+[I][2020-09-06 +8.0 10:38:18.235][19327, 19327][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 10:38:18.262][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:38:19.880][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:38:19.931][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 10:38:20.201][19327, 19523][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:38:22.220][19327, 19327][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 10:38:22.220][19327, 19327][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:38:22.493][19327, 19327][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 10:38:22.493][19327, 19327][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:38:24.350][19327, 19327][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 10:38:24.351][19327, 19327][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:38:25.452][19327, 19327][Qianxi][, , 0][load discovery list success size:14 reset:true offset:24 hasmore:true
+[I][2020-09-06 +8.0 10:38:25.933][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:38:27.080][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:38:28.741][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:38:29.367][19327, 19327][Qianxi][, , 0][square list rech end!! _offset:2
+[I][2020-09-06 +8.0 10:38:29.595][19327, 19327][Qianxi][, , 0][RoomPage root initState.
+[I][2020-09-06 +8.0 10:38:29.605][19327, 19327][Qianxi][, , 0][flutter preCreateTexture start.
+[I][2020-09-06 +8.0 10:38:29.624][19327, 19327][VideoPlayerTexture][, , 0][startPlay url=http://live-pull-ws.qxilive.cn/live/1617778273708419.flv?ikHost=ws&ikOp=1&codecInfo=8192&dpSrc=push&ikDnsOp=1001&ikMinBuf=2900&ikMaxBuf=3600&ikSlowRate=1.0&ikFastRate=1.1&ikLog=1&ikSyncBeta=1&ikLiveType=qianxi_normal
+[I][2020-09-06 +8.0 10:38:29.789][19327, 19327][VideoPlayerTexture][, , 0][playerSettingType EventCommonPlayerStateBuffering
+[I][2020-09-06 +8.0 10:38:29.793][19327, 19327][Qianxi][, , 0][flutter preCreateTexture end. 0
+[I][2020-09-06 +8.0 10:38:29.794][19327, 19327][Qianxi][, , 0][RoomPage initState.
+[I][2020-09-06 +8.0 10:38:29.888][19327, 19327][Qianxi][, , 0][RoomPage 进房 true hash:439663015 RoomInfo{stream_addr: http://live-pull-ws.qxilive.cn/live/1617778273708419.flv?ikHost=ws&ikOp=1&codecInfo=8192&dpSrc=push&ikDnsOp=1001&ikMinBuf=2900&ikMaxBuf=3600&ikSlowRate=1.0&ikFastRate=1.1&ikLog=1&ikSyncBeta=1&ikLiveType=qianxi_normal, userInfo: {"albums": null,"like_tags": null,"num_mutuals": 0,"height": 0,consume": 0, "new_user": 0, "num_followers": 0,"num_followings": 0,"education": ,"gender": 1,"gmutex": 0,"id": 100290,"inke_verify": 0,"register_at": 1616989055,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "小饭团290","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0ODU0MCM4MTQjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": null}, room_id: 1617778273708419, slot: 1, city: , name: , dm_error: 0, errorMessage: null}
+[I][2020-09-06 +8.0 10:38:29.913][19327, 19791][VideoPlayerTexture][, , 0][playerSettingType EventCommonPlayerDataTrackingInfo
+[I][2020-09-06 +8.0 10:38:29.917][19327, 19327][Qianxi][, , 0][PkVideoWrapper initState 367494052
+[I][2020-09-06 +8.0 10:38:29.925][19327, 19327][Qianxi][, , 0][flutter user preCreateTexture. 0
+[I][2020-09-06 +8.0 10:38:29.932][19327, 19327][Qianxi][, , 0][RoomPage _onPlatformViewCreate :0
+[I][2020-09-06 +8.0 10:38:29.933][19327, 19327][Qianxi][, , 0][RoomPage pull :http://live-pull-ws.qxilive.cn/live/1617778273708419.flv?ikHost=ws&ikOp=1&codecInfo=8192&dpSrc=push&ikDnsOp=1001&ikMinBuf=2900&ikMaxBuf=3600&ikSlowRate=1.0&ikFastRate=1.1&ikLog=1&ikSyncBeta=1&ikLiveType=qianxi_normal
+[I][2020-09-06 +8.0 10:38:29.934][19327, 19327][VideoPlayerTexture][, , 0][startPlay url=http://live-pull-ws.qxilive.cn/live/1617778273708419.flv?ikHost=ws&ikOp=1&codecInfo=8192&dpSrc=push&ikDnsOp=1001&ikMinBuf=2900&ikMaxBuf=3600&ikSlowRate=1.0&ikFastRate=1.1&ikLog=1&ikSyncBeta=1&ikLiveType=qianxi_normal
+[I][2020-09-06 +8.0 10:38:29.934][19327, 19327][VideoPlayerTexture][, , 0][startPlay same url, return.
+[I][2020-09-06 +8.0 10:38:29.955][19327, 19327][RoomLink][, , 0][RoomLinkPlugin enterRoom called. roomid=1617778273708419
+[I][2020-09-06 +8.0 10:38:29.958][19327, 19327][Subscriber-31176313][, , 0][channel active, start subscribe, subscribeID = 1617778273708419, action = UInt16{0x100}
+[I][2020-09-06 +8.0 10:38:29.960][19327, 19327][Connection][, , 0][onUserEvent() called with: evt = [com.inke.conn.subscribe.event.StartSubscribeEvent@6bbbfbe]
+[I][2020-09-06 +8.0 10:38:29.962][19327, 19744][Subscriber-31176313][, , 0][subscribe send success, subscribeID = 1617778273708419, action = UInt16{0x100}
+[W][2020-09-06 +8.0 10:38:29.968][19327, 19744][SendEx][, , 0][发送成功, msg: conn-msg-0
+[I][2020-09-06 +8.0 10:38:29.973][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [com.inke.conn.subscribe.event.SubscribeResultEvent@a72076c]
+[I][2020-09-06 +8.0 10:38:29.974][19327, 19744][HttpBackup][, , 0][cancelSubscribe, subscribeID = 1617778273708419
+[I][2020-09-06 +8.0 10:38:29.975][19327, 19744][Subscriber-31176313][, , 0][subscribe success, prepared for business. Oh Ye!, subscribeID = 1617778273708419
+[I][2020-09-06 +8.0 10:38:30.077][19327, 19327][VideoPlayerTexture][, , 0][playerSettingType EventAndroidAudioFirstRender
+[I][2020-09-06 +8.0 10:38:30.099][19327, 19327][VideoPlayerTexture][, , 0][playerSettingType EventCommonPlayerStateStartPlaying
+[I][2020-09-06 +8.0 10:38:30.099][19327, 19327][VideoPlayerTexture][, , 0][playerSettingType EventAndroidVideoFirstRender
+[D][2020-09-06 +8.0 10:38:30.100][19327, 19327][Qianxi][, , 0][videoWidth:720
+[D][2020-09-06 +8.0 10:38:30.100][19327, 19327][Qianxi][, , 0][videoHeight:1280
+[I][2020-09-06 +8.0 10:38:30.105][19327, 19791][VideoPlayerTexture][, , 0][playerSettingType EventCommonPlayerDataTrackingInfo
+[I][2020-09-06 +8.0 10:38:30.211][19327, 19327][Qianxi][, , 0][RoomPage onFirstFrame. coast:319,totalCoast:586
+[I][2020-09-06 +8.0 10:38:30.211][19327, 19327][Qianxi][, , 0][RoomPage hideBlurIfNeed.
+[I][2020-09-06 +8.0 10:38:30.213][19327, 19327][Qianxi][, , 0][PkVideoWrapper hideFirstLoading
+[I][2020-09-06 +8.0 10:38:31.907][19327, 19327][Qianxi][, , 0][PkVideoWrapper dispose 367494052
+[I][2020-09-06 +8.0 10:38:31.954][19327, 19327][Qianxi][, , 0][RoomPage dispose 439663015
+[I][2020-09-06 +8.0 10:38:31.960][19327, 19327][RoomLink][, , 0][RoomLinkPlugin leaveRoom called.  roomId=1617778273708419
+[I][2020-09-06 +8.0 10:38:31.961][19327, 19327][HttpBackup][, , 0][cancelSubscribe, subscribeID = 1617778273708419
+[I][2020-09-06 +8.0 10:38:31.962][19327, 19327][Subscriber-31176313][, , 0][channel active, start unSubscribe, subscribeID = 1617778273708419
+[I][2020-09-06 +8.0 10:38:31.970][19327, 19327][Connection][, , 0][onUserEvent() called with: evt = [com.inke.conn.subscribe.event.StartUnSubscribeEvent@8ab8c17]
+[I][2020-09-06 +8.0 10:38:31.971][19327, 19744][Subscriber-31176313][, , 0][unSubscribe send success, subscribeID = 1617778273708419
+[W][2020-09-06 +8.0 10:38:31.978][19327, 19744][SendEx][, , 0][发送成功, msg: conn-msg-1
+[I][2020-09-06 +8.0 10:38:31.981][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [com.inke.conn.subscribe.event.SubscribeResultEvent@683d804]
+[I][2020-09-06 +8.0 10:38:31.983][19327, 19744][Subscriber-31176313][, , 0][unSubscribe success, subscribeID = 1617778273708419
+[I][2020-09-06 +8.0 10:38:32.011][19327, 19327][Qianxi][, , 0][RoomPage root dispose.
+[I][2020-09-06 +8.0 10:38:32.986][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:38:49.877][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:38:49.936][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=40}]
+[I][2020-09-06 +8.0 10:38:50.366][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:39:17.948][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:39:18.246][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:39:19.878][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:39:19.932][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=35}]
+[I][2020-09-06 +8.0 10:39:20.484][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:39:49.879][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:39:49.934][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=36}]
+[I][2020-09-06 +8.0 10:39:50.684][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:39:58.951][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:39:59.574][19327, 19327][Qianxi][, , 0][square list rech end!! _offset:2
+[I][2020-09-06 +8.0 10:39:59.667][19327, 19327][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 10:39:59.667][19327, 19327][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:40:00.705][19327, 19327][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:40:11.908][19327, 19327][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 10:40:11.909][19327, 19327][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:40:15.792][19327, 19327][IKLogUploadManager][, , 0][register shake successfully.
+[I][2020-09-06 +8.0 10:40:17.905][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:40:19.875][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:40:19.928][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 10:40:20.784][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:40:49.875][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:40:49.921][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=29}]
+[I][2020-09-06 +8.0 10:40:51.004][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:41:17.913][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:41:19.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:41:19.930][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=35}]
+[I][2020-09-06 +8.0 10:41:21.206][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:41:49.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:41:49.931][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 10:41:51.327][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:42:17.922][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:42:19.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:42:19.928][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 10:42:21.523][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:42:49.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:42:49.928][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 10:42:51.660][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:43:17.910][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:43:19.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:43:19.970][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=74}]
+[I][2020-09-06 +8.0 10:43:21.843][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:43:49.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:43:49.934][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 10:43:52.060][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:44:17.906][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:44:19.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:44:19.924][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 10:44:22.218][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:44:49.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:44:49.928][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 10:44:52.362][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:45:17.906][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:45:19.874][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:45:19.900][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=15}]
+[I][2020-09-06 +8.0 10:45:22.581][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:45:49.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:45:49.926][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=31}]
+[I][2020-09-06 +8.0 10:45:52.672][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:46:17.906][19327, 19327][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:46:19.876][19327, 19743][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@a39dd47
+[I][2020-09-06 +8.0 10:46:19.940][19327, 19744][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=44}]
+[I][2020-09-06 +8.0 10:46:22.899][19327, 19786][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:46:42.369][19327, 19327][Qianxi][, , 0][flush xlog...
+^^^^^^^^^^Aug 28 2019^^^20:17:18^^^^^^^^^^[20080,20080][2020-09-06 +0800 10:46:45]
+get mmap time: 0
+MARS_URL: 
+MARS_PATH: 
+MARS_REVISION: 
+MARS_BUILD_TIME: 2019-08-28 20:17:12
+MARS_BUILD_JOB: 
+log appender mode:0, use mmap:1
+cache dir space info, capacity:119412998144 free:33631899648 available:33631899648
+log dir space info, capacity:119412998144 free:33631899648 available:33631899648
+[I][2020-09-06 +8.0 10:46:45.753][20080, 20080][Qianxi][, , 0][-- Qianxi Logger Recorder Init --
+[I][2020-09-06 +8.0 10:46:45.810][20080, 20146][Qianxi][, , 0][Legacy has SMID.
+[E][2020-09-06 +8.0 10:46:45.846][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@bdd674b，onAppCreate 耗时：202ms，超过了80ms，需要优化！！！
+[I][2020-09-06 +8.0 10:46:45.954][20080, 20080][Connection][, , 0][connect, reason: process start
+[I][2020-09-06 +8.0 10:46:45.961][20080, 20080][Connection][, , 0][onConnectStart() called, cost since last connect: 1812156585
+[E][2020-09-06 +8.0 10:46:46.021][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@d69033d，onAppCreate 耗时：174ms，超过了80ms，需要优化！！！
+[D][2020-09-06 +8.0 10:46:46.021][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@2e12732，onAppCreate 耗时：0ms
+[I][2020-09-06 +8.0 10:46:46.028][20080, 20080][Qianxi][, , 0][[push component] 进程启动注册推送服务
+[D][2020-09-06 +8.0 10:46:46.029][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@f131ccf，onAppCreate 耗时：8ms
+[D][2020-09-06 +8.0 10:46:46.030][20080, 20080][Qianxi][, , 0][<ComponentCenter> onAppCreate [ok], time: 670.2 ms
+[D][2020-09-06 +8.0 10:46:46.034][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.ChannelConfigComponent@ceb6eb，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.034][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.http.AtomComponent@881ac48，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.035][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.storage.StorageComponent@83f1006，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.035][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.perform.PerformComponent@45fd6c7，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.035][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.serviceinfo.ServiceInfoComponent@52944f4，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.036][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@bdd674b，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.036][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@d69033d，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.036][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@2e12732，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.037][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@f131ccf，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 10:46:46.037][20080, 20080][Qianxi][, , 0][<ComponentCenter> onStartPermissionGranted [ok], time: 677.5 ms
+[D][2020-09-06 +8.0 10:46:46.038][20080, 20080][Qianxi][, , 0][<ComponentCenter> Component Init finished: [ok], time: 678.5 ms
+[I][2020-09-06 +8.0 10:46:46.041][20080, 20176][Connection][, , 0][onConnectSuccess，addr: 47.95.165.165:6104, cost: 80
+[I][2020-09-06 +8.0 10:46:46.047][20080, 20176][Connection][, , 0][onChannelActive() called
+[I][2020-09-06 +8.0 10:46:46.047][20080, 20176][HandshakeConnection][, , 0][1. channelActive, start handshake
+[I][2020-09-06 +8.0 10:46:46.047][20080, 20176][Handshake][, , 0][handshake
+[I][2020-09-06 +8.0 10:46:46.086][20080, 20179][[push register v2] 注册极光推送][, , 0][1a0018970a739a43cc4
+[I][2020-09-06 +8.0 10:46:46.092][20080, 20176][Handshake][, , 0][send handshake request success
+[I][2020-09-06 +8.0 10:46:46.094][20080, 20162][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:46:46.109][20080, 20176][Handshake][, , 0][handshake response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4003}, seq=UInt16{0x1}, uid=UInt32{0}, session=UInt32{10003}, rescode=UInt16{0x0}, bodyLength=UInt16{0x82}, headLen=UInt32{0}, text='', headerInJson=''}
+[I][2020-09-06 +8.0 10:46:46.110][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HandshakeResultEvent{success=true, resCode=UInt16{0x0}, cost=62}]
+[I][2020-09-06 +8.0 10:46:46.111][20080, 20176][HandshakeConnection][, , 0][2. handshake success, start login
+[I][2020-09-06 +8.0 10:46:46.117][20080, 20176][Login][, , 0][login send success
+[I][2020-09-06 +8.0 10:46:46.118][20080, 20176][Connection][, , 0][receive first msg, cost since connected: 76, cost since last active: 70
+[I][2020-09-06 +8.0 10:46:46.132][20080, 20176][Login][, , 0][login response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4004}, seq=UInt16{0x2}, uid=UInt32{0}, session=UInt32{10003}, rescode=UInt16{0x0}, bodyLength=UInt16{0x61}, headLen=UInt32{0}, text='{"bus_buf": [{"gid":"94ee5dc5ba47ff9a0538755579f98d6f","retcode":0}]}', headerInJson=''}
+[I][2020-09-06 +8.0 10:46:46.133][20080, 20176][Login][, , 0][login result, gid: 94ee5dc5ba47ff9a0538755579f98d6f, retCode: 0
+[I][2020-09-06 +8.0 10:46:46.133][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [LoginResultEvent{success=true, resCode=UInt16{0x0}, cost=22}]
+[I][2020-09-06 +8.0 10:46:46.135][20080, 20176][HandshakeConnection][, , 0][3. login success, prepared for business msg. Oh Ye!
+[I][2020-09-06 +8.0 10:46:46.212][20080, 20109][ShuzilmManager][, , 0][oaid = NA
+[I][2020-09-06 +8.0 10:46:46.434][20080, 20246][MicroMsg.PaySdk.WXFactory][, , 0][createWXAPI, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 10:46:46.440][20080, 20246][MicroMsg.SDK.WXApiImplV10][, , 0][<init>, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 10:46:46.441][20080, 20246][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:46:46.442][20080, 20246][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:46:46.467][20080, 20246][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:46:46.471][20080, 20246][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 10:46:46.472][20080, 20246][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 10:46:46.472][20080, 20246][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 10:46:46.472][20080, 20246][MicroMsg.SDK.WXApiImplV10][, , 0][register app com.billion.qianxi
+[I][2020-09-06 +8.0 10:46:46.475][20080, 20246][MicroMsg.SDK.MMessage][, , 0][send mm message, intent=Intent { act=com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER (has extras) }, perm=com.tencent.mm.permission.MM_MESSAGE
+[I][2020-09-06 +8.0 10:46:46.480][20080, 20080][[push register v2] 注册极光推送结果: ][, , 0][{"dm_error":0,"err_code":0,"err_msg":"success"}
+[I][2020-09-06 +8.0 10:46:47.659][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:46:47.961][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:46:47.975][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=10}]
+[I][2020-09-06 +8.0 10:46:47.985][20080, 20080][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 10:46:47.986][20080, 20080][Qianxi][, , 0][Doing messgae LoginSuccessEvent register
+[D][2020-09-06 +8.0 10:46:48.001][20080, 20080][Qianxi][, , 0][Doing timer LoginSuccessEvent register
+[I][2020-09-06 +8.0 10:46:48.262][20080, 20080][Qianxi][, , 0][UserManager laodUser. uid 100298
+[I][2020-09-06 +8.0 10:46:48.263][20080, 20080][Qianxi][, , 0][UserManager laodUser. u {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:46:48.281][20080, 20080][Qianxi][, , 0][Doing messgae LoginSuccessEvent consume
+[D][2020-09-06 +8.0 10:46:48.290][20080, 20080][Qianxi][, , 0][Doing timer LoginSuccessEvent consume
+[E][2020-09-06 +8.0 10:46:48.528][20080, 20080][Qianxi][, , 0][Doing permission LoginSuccessEvent consume
+[W][2020-09-06 +8.0 10:46:48.589][20080, 20080][Qianxi][, , 0][Doing followLoad LoginSuccessEvent consume
+[I][2020-09-06 +8.0 10:46:48.590][20080, 20080][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 10:46:48.878][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:46:48.886][20080, 20080][IKLogUploadManager][, , 0][IKLogUploader is initialized.
+[D][2020-09-06 +8.0 10:46:48.891][20080, 20080][IKLogUploadManager][, , 0][querying log fetch task ...
+[I][2020-09-06 +8.0 10:46:48.948][20080, 20286][IKLogUploadManager][, , 0][query log fetch task successfully, not need to upload log file, status: 0.
+[I][2020-09-06 +8.0 10:46:50.849][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:47:17.885][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:47:17.964][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:47:17.982][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=11}]
+[I][2020-09-06 +8.0 10:47:47.961][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:47:47.982][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=12}]
+[I][2020-09-06 +8.0 10:47:48.059][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:47:48.625][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:47:50.849][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:48:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:48:18.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=31}]
+[I][2020-09-06 +8.0 10:48:18.311][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:48:47.964][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:48:48.016][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 10:48:48.511][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:48:48.575][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:48:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:49:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:49:18.016][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=28}]
+[I][2020-09-06 +8.0 10:49:18.666][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:49:47.964][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:49:48.027][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=38}]
+[I][2020-09-06 +8.0 10:49:48.584][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:49:48.720][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:49:50.817][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:50:17.964][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:50:17.993][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=12}]
+[I][2020-09-06 +8.0 10:50:18.865][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:50:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:50:48.015][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=28}]
+[I][2020-09-06 +8.0 10:50:48.576][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:50:49.028][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:50:50.850][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:51:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:51:18.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=31}]
+[I][2020-09-06 +8.0 10:51:19.244][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:51:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:51:48.021][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 10:51:48.572][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:51:49.446][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:51:50.840][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[E][2020-09-06 +8.0 10:52:09.218][20080, 20080][Qianxi][, , 0][Doing0 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.218][20080, 20080][Qianxi][, , 0][Doing10000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.218][20080, 20080][Qianxi][, , 0][Doing20000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.219][20080, 20080][Qianxi][, , 0][Doing30000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.219][20080, 20080][Qianxi][, , 0][Doing40000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.219][20080, 20080][Qianxi][, , 0][Doing50000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.219][20080, 20080][Qianxi][, , 0][Doing60000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.219][20080, 20080][Qianxi][, , 0][Doing70000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.220][20080, 20080][Qianxi][, , 0][Doing80000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.220][20080, 20080][Qianxi][, , 0][Doing90000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.220][20080, 20080][Qianxi][, , 0][Doing100000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.220][20080, 20080][Qianxi][, , 0][Doing110000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.220][20080, 20080][Qianxi][, , 0][Doing120000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.221][20080, 20080][Qianxi][, , 0][Doing130000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.221][20080, 20080][Qianxi][, , 0][Doing140000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.223][20080, 20080][Qianxi][, , 0][Doing150000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.224][20080, 20080][Qianxi][, , 0][Doing160000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.224][20080, 20080][Qianxi][, , 0][Doing170000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.224][20080, 20080][Qianxi][, , 0][Doing180000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.224][20080, 20080][Qianxi][, , 0][Doing190000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.224][20080, 20080][Qianxi][, , 0][Doing200000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.224][20080, 20080][Qianxi][, , 0][Doing210000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.225][20080, 20080][Qianxi][, , 0][Doing220000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.225][20080, 20080][Qianxi][, , 0][Doing230000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.225][20080, 20080][Qianxi][, , 0][Doing240000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.225][20080, 20080][Qianxi][, , 0][Doing250000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.225][20080, 20080][Qianxi][, , 0][Doing260000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.226][20080, 20080][Qianxi][, , 0][Doing270000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.226][20080, 20080][Qianxi][, , 0][Doing280000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.226][20080, 20080][Qianxi][, , 0][Doing290000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.226][20080, 20080][Qianxi][, , 0][Doing300000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.226][20080, 20080][Qianxi][, , 0][Doing310000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.226][20080, 20080][Qianxi][, , 0][Doing320000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.227][20080, 20080][Qianxi][, , 0][Doing330000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.227][20080, 20080][Qianxi][, , 0][Doing340000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.227][20080, 20080][Qianxi][, , 0][Doing350000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.227][20080, 20080][Qianxi][, , 0][Doing360000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.227][20080, 20080][Qianxi][, , 0][Doing370000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.228][20080, 20080][Qianxi][, , 0][Doing380000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.228][20080, 20080][Qianxi][, , 0][Doing390000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.228][20080, 20080][Qianxi][, , 0][Doing400000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.228][20080, 20080][Qianxi][, , 0][Doing410000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.228][20080, 20080][Qianxi][, , 0][Doing420000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.228][20080, 20080][Qianxi][, , 0][Doing430000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.229][20080, 20080][Qianxi][, , 0][Doing440000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.229][20080, 20080][Qianxi][, , 0][Doing450000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.229][20080, 20080][Qianxi][, , 0][Doing460000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.229][20080, 20080][Qianxi][, , 0][Doing470000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.229][20080, 20080][Qianxi][, , 0][Doing480000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.230][20080, 20080][Qianxi][, , 0][Doing490000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.230][20080, 20080][Qianxi][, , 0][Doing500000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.230][20080, 20080][Qianxi][, , 0][Doing510000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.230][20080, 20080][Qianxi][, , 0][Doing520000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.230][20080, 20080][Qianxi][, , 0][Doing530000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.231][20080, 20080][Qianxi][, , 0][Doing540000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.231][20080, 20080][Qianxi][, , 0][Doing550000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.231][20080, 20080][Qianxi][, , 0][Doing560000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.231][20080, 20080][Qianxi][, , 0][Doing570000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.231][20080, 20080][Qianxi][, , 0][Doing580000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.232][20080, 20080][Qianxi][, , 0][Doing590000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.232][20080, 20080][Qianxi][, , 0][Doing600000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.232][20080, 20080][Qianxi][, , 0][Doing610000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.232][20080, 20080][Qianxi][, , 0][Doing620000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.232][20080, 20080][Qianxi][, , 0][Doing630000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.232][20080, 20080][Qianxi][, , 0][Doing640000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.233][20080, 20080][Qianxi][, , 0][Doing650000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.233][20080, 20080][Qianxi][, , 0][Doing660000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.233][20080, 20080][Qianxi][, , 0][Doing670000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.233][20080, 20080][Qianxi][, , 0][Doing680000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.233][20080, 20080][Qianxi][, , 0][Doing690000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.234][20080, 20080][Qianxi][, , 0][Doing700000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.234][20080, 20080][Qianxi][, , 0][Doing710000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.234][20080, 20080][Qianxi][, , 0][Doing720000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.234][20080, 20080][Qianxi][, , 0][Doing730000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.234][20080, 20080][Qianxi][, , 0][Doing740000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.235][20080, 20080][Qianxi][, , 0][Doing750000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.235][20080, 20080][Qianxi][, , 0][Doing760000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.235][20080, 20080][Qianxi][, , 0][Doing770000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.235][20080, 20080][Qianxi][, , 0][Doing780000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.235][20080, 20080][Qianxi][, , 0][Doing790000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.235][20080, 20080][Qianxi][, , 0][Doing800000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.236][20080, 20080][Qianxi][, , 0][Doing810000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.236][20080, 20080][Qianxi][, , 0][Doing820000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.236][20080, 20080][Qianxi][, , 0][Doing830000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.236][20080, 20080][Qianxi][, , 0][Doing840000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.236][20080, 20080][Qianxi][, , 0][Doing850000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.237][20080, 20080][Qianxi][, , 0][Doing860000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.237][20080, 20080][Qianxi][, , 0][Doing870000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.237][20080, 20080][Qianxi][, , 0][Doing880000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.237][20080, 20080][Qianxi][, , 0][Doing890000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.237][20080, 20080][Qianxi][, , 0][Doing900000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.238][20080, 20080][Qianxi][, , 0][Doing910000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.238][20080, 20080][Qianxi][, , 0][Doing920000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.238][20080, 20080][Qianxi][, , 0][Doing930000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.238][20080, 20080][Qianxi][, , 0][Doing940000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.238][20080, 20080][Qianxi][, , 0][Doing950000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.238][20080, 20080][Qianxi][, , 0][Doing960000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.239][20080, 20080][Qianxi][, , 0][Doing970000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.239][20080, 20080][Qianxi][, , 0][Doing980000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 10:52:09.239][20080, 20080][Qianxi][, , 0][Doing990000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[I][2020-09-06 +8.0 10:52:10.000][20080, 20080][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 10:52:10.292][20080, 20080][Qianxi][, , 0][UserManager laodUser. uid 100298
+[I][2020-09-06 +8.0 10:52:10.293][20080, 20080][Qianxi][, , 0][UserManager laodUser. u {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 10:52:10.677][20080, 20080][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 10:52:10.917][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[W][2020-09-06 +8.0 10:52:10.937][20080, 20080][IKLogUploadManager][, , 0][IKLogUploader has been initialized, reject to re-initialize.
+[D][2020-09-06 +8.0 10:52:10.980][20080, 20080][IKLogUploadManager][, , 0][querying log fetch task ...
+[I][2020-09-06 +8.0 10:52:11.051][20080, 20286][IKLogUploadManager][, , 0][query log fetch task successfully, not need to upload log file, status: 0.
+[I][2020-09-06 +8.0 10:52:17.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:52:18.006][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 10:52:19.636][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:52:47.964][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:52:48.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=35}]
+[I][2020-09-06 +8.0 10:52:49.862][20080, 20286][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 10:52:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:53:10.682][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:53:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:53:18.043][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=54}]
+[I][2020-09-06 +8.0 10:53:47.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:53:48.015][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=35}]
+[I][2020-09-06 +8.0 10:53:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:54:10.678][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:54:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:54:18.023][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 10:54:47.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:54:48.014][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 10:54:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:55:10.693][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:55:17.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:55:17.997][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=19}]
+[I][2020-09-06 +8.0 10:55:47.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:55:48.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=36}]
+[I][2020-09-06 +8.0 10:55:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:56:10.668][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:56:17.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:56:17.994][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=15}]
+[I][2020-09-06 +8.0 10:56:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:56:48.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=31}]
+[I][2020-09-06 +8.0 10:56:50.848][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:57:10.695][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:57:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:57:18.017][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 10:57:47.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:57:48.010][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 10:57:50.851][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:58:10.719][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:58:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:58:18.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 10:58:47.965][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:58:48.016][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=29}]
+[I][2020-09-06 +8.0 10:58:50.819][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 10:59:10.695][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 10:59:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:59:18.016][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 10:59:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 10:59:48.019][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 10:59:50.831][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:00:10.728][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:00:17.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:00:17.994][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=15}]
+[I][2020-09-06 +8.0 11:00:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:00:48.024][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=36}]
+[I][2020-09-06 +8.0 11:00:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:01:10.695][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:01:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:01:18.023][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=37}]
+[I][2020-09-06 +8.0 11:01:47.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:01:48.013][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=36}]
+[I][2020-09-06 +8.0 11:01:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:02:10.726][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:02:17.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:02:18.015][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 11:02:47.965][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:02:48.015][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 11:02:50.848][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:03:10.685][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:03:17.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:03:18.014][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=37}]
+[I][2020-09-06 +8.0 11:03:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:03:48.018][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 11:03:50.854][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:04:10.728][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:04:17.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:04:18.016][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 11:04:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:04:48.018][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 11:04:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:05:10.695][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:05:17.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:05:18.018][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 11:05:47.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:05:48.011][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=33}]
+[I][2020-09-06 +8.0 11:05:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:06:10.722][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:06:17.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:06:18.020][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=40}]
+[I][2020-09-06 +8.0 11:06:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:06:48.027][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=41}]
+[I][2020-09-06 +8.0 11:06:50.848][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:07:10.686][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:07:17.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:07:18.024][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=42}]
+[I][2020-09-06 +8.0 11:07:47.963][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:07:48.013][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=35}]
+[I][2020-09-06 +8.0 11:07:50.850][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:08:10.722][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:08:17.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:08:18.013][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=35}]
+[I][2020-09-06 +8.0 11:08:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:08:48.024][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=36}]
+[I][2020-09-06 +8.0 11:08:50.849][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:09:10.695][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:09:17.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:09:18.012][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=34}]
+[I][2020-09-06 +8.0 11:09:47.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:09:48.008][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 11:09:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:10:10.726][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:10:17.962][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:10:18.001][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=23}]
+[I][2020-09-06 +8.0 11:10:47.966][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:10:48.018][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 11:10:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:10:58.829][20080, 20080][Qianxi][, , 0][flush xlog...
+[I][2020-09-06 +8.0 11:11:18.005][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:11:18.065][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=37}]
+[I][2020-09-06 +8.0 11:11:48.002][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:11:48.033][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=15}]
+[I][2020-09-06 +8.0 11:11:50.847][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:12:18.003][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:12:18.033][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=12}]
+[I][2020-09-06 +8.0 11:12:47.991][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:12:48.030][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 11:12:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:13:18.005][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:13:18.054][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=29}]
+[I][2020-09-06 +8.0 11:13:48.005][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:13:48.055][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=30}]
+[I][2020-09-06 +8.0 11:13:50.853][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:14:18.005][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:14:18.057][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=29}]
+[I][2020-09-06 +8.0 11:14:48.003][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:14:48.052][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=32}]
+[I][2020-09-06 +8.0 11:14:50.852][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:15:46.262][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:15:46.292][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=26}]
+[I][2020-09-06 +8.0 11:15:46.449][20080, 20877][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:15:46.454][20080, 20877][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:15:46.475][20080, 20877][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:15:46.478][20080, 20877][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:15:46.484][20080, 20877][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 11:15:46.484][20080, 20877][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 11:15:46.484][20080, 20877][MicroMsg.SDK.WXApiImplV10][, , 0][register app com.billion.qianxi
+[I][2020-09-06 +8.0 11:15:46.486][20080, 20877][MicroMsg.SDK.MMessage][, , 0][send mm message, intent=Intent { act=com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER (has extras) }, perm=com.tencent.mm.permission.MM_MESSAGE
+[D][2020-09-06 +8.0 11:15:46.895][20080, 20080][IKLogUploadManager][, , 0][querying log fetch task ...
+[I][2020-09-06 +8.0 11:15:46.957][20080, 20885][IKLogUploadManager][, , 0][query log fetch task successfully, not need to upload log file, status: 0.
+[I][2020-09-06 +8.0 11:15:47.796][20080, 20885][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 11:15:47.961][20080, 20169][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@81b1d22
+[I][2020-09-06 +8.0 11:15:47.972][20080, 20176][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=10}]
+[I][2020-09-06 +8.0 11:15:48.049][20080, 20080][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 11:15:48.051][20080, 20080][Qianxi][, , 0][Doing messgae LoginSuccessEvent register
+[D][2020-09-06 +8.0 11:15:48.067][20080, 20080][Qianxi][, , 0][Doing timer LoginSuccessEvent register
+[I][2020-09-06 +8.0 11:15:48.349][20080, 20080][Qianxi][, , 0][UserManager laodUser. uid 100298
+[I][2020-09-06 +8.0 11:15:48.350][20080, 20080][Qianxi][, , 0][UserManager laodUser. u {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 11:15:48.370][20080, 20080][Qianxi][, , 0][Doing messgae LoginSuccessEvent consume
+[D][2020-09-06 +8.0 11:15:48.375][20080, 20080][Qianxi][, , 0][Doing timer LoginSuccessEvent consume
+[E][2020-09-06 +8.0 11:15:48.621][20080, 20080][Qianxi][, , 0][Doing permission LoginSuccessEvent consume
+[W][2020-09-06 +8.0 11:15:48.683][20080, 20080][Qianxi][, , 0][Doing followLoad LoginSuccessEvent consume
+[I][2020-09-06 +8.0 11:15:48.685][20080, 20080][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 11:15:48.962][20080, 20080][Qianxi][, , 0][square load list start _offset:0
+[W][2020-09-06 +8.0 11:15:48.975][20080, 20080][IKLogUploadManager][, , 0][IKLogUploader has been initialized, reject to re-initialize.
+[D][2020-09-06 +8.0 11:15:48.990][20080, 20080][IKLogUploadManager][, , 0][querying log fetch task ...
+[I][2020-09-06 +8.0 11:15:49.045][20080, 20885][IKLogUploadManager][, , 0][query log fetch task successfully, not need to upload log file, status: 0.
+[I][2020-09-06 +8.0 11:15:50.815][20080, 20080][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:16:03.835][20080, 20080][Qianxi][, , 0][flush xlog...
+^^^^^^^^^^Aug 28 2019^^^20:17:18^^^^^^^^^^[20922,20922][2020-09-06 +0800 11:16:06]
+get mmap time: 0
+MARS_URL: 
+MARS_PATH: 
+MARS_REVISION: 
+MARS_BUILD_TIME: 2019-08-28 20:17:12
+MARS_BUILD_JOB: 
+log appender mode:0, use mmap:1
+cache dir space info, capacity:119412998144 free:33579642880 available:33579642880
+log dir space info, capacity:119412998144 free:33579642880 available:33579642880
+[I][2020-09-06 +8.0 11:16:06.687][20922, 20922][Qianxi][, , 0][-- Qianxi Logger Recorder Init --
+[I][2020-09-06 +8.0 11:16:06.744][20922, 20991][Qianxi][, , 0][Legacy has SMID.
+[E][2020-09-06 +8.0 11:16:06.783][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@bdd674b，onAppCreate 耗时：204ms，超过了80ms，需要优化！！！
+[I][2020-09-06 +8.0 11:16:06.890][20922, 20922][Connection][, , 0][connect, reason: process start
+[I][2020-09-06 +8.0 11:16:06.896][20922, 20922][Connection][, , 0][onConnectStart() called, cost since last connect: 1813917520
+[E][2020-09-06 +8.0 11:16:06.952][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@31746a6，onAppCreate 耗时：170ms，超过了80ms，需要优化！！！
+[D][2020-09-06 +8.0 11:16:06.953][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@2d3d8e7，onAppCreate 耗时：0ms
+[I][2020-09-06 +8.0 11:16:06.962][20922, 20922][Qianxi][, , 0][[push component] 进程启动注册推送服务
+[D][2020-09-06 +8.0 11:16:06.970][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@b056d65，onAppCreate 耗时：18ms
+[D][2020-09-06 +8.0 11:16:06.972][20922, 20922][Qianxi][, , 0][<ComponentCenter> onAppCreate [ok], time: 676.0 ms
+[D][2020-09-06 +8.0 11:16:06.976][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.ChannelConfigComponent@9c28a3a，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 11:16:06.976][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.http.AtomComponent@ceb6eb，onAppStartPermissionGranted 耗时：1ms
+[D][2020-09-06 +8.0 11:16:06.978][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.storage.StorageComponent@9647ae1，onAppStartPermissionGranted 耗时：1ms
+[D][2020-09-06 +8.0 11:16:06.978][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.mechanism.perform.PerformComponent@83f1006，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 11:16:06.978][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.meelive.ingkee.serviceinfo.ServiceInfoComponent@45fd6c7，onAppStartPermissionGranted 耗时：0ms
+[I][2020-09-06 +8.0 11:16:06.979][20922, 21020][Connection][, , 0][onConnectSuccess，addr: 47.95.165.165:6104, cost: 84
+[D][2020-09-06 +8.0 11:16:06.979][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.LegacyComponent@bdd674b，onAppStartPermissionGranted 耗时：1ms
+[D][2020-09-06 +8.0 11:16:06.980][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.conn.ConnectionComponent@31746a6，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 11:16:06.980][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.billion.qianxi.thirdpart.weixin.WechatComponent@2d3d8e7，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 11:16:06.980][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component：com.galaxy.yimi.business.push.PushComponent@b056d65，onAppStartPermissionGranted 耗时：0ms
+[D][2020-09-06 +8.0 11:16:06.980][20922, 20922][Qianxi][, , 0][<ComponentCenter> onStartPermissionGranted [ok], time: 685.3 ms
+[D][2020-09-06 +8.0 11:16:06.981][20922, 20922][Qianxi][, , 0][<ComponentCenter> Component Init finished: [ok], time: 686.2 ms
+[I][2020-09-06 +8.0 11:16:06.985][20922, 21020][Connection][, , 0][onChannelActive() called
+[I][2020-09-06 +8.0 11:16:06.985][20922, 21020][HandshakeConnection][, , 0][1. channelActive, start handshake
+[I][2020-09-06 +8.0 11:16:06.985][20922, 21020][Handshake][, , 0][handshake
+[I][2020-09-06 +8.0 11:16:07.032][20922, 21024][[push register v2] 注册极光推送][, , 0][1a0018970a739a43cc4
+[I][2020-09-06 +8.0 11:16:07.044][20922, 21020][Handshake][, , 0][send handshake request success
+[I][2020-09-06 +8.0 11:16:07.056][20922, 21020][Handshake][, , 0][handshake response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4003}, seq=UInt16{0x1}, uid=UInt32{0}, session=UInt32{10003}, rescode=UInt16{0x0}, bodyLength=UInt16{0x82}, headLen=UInt32{0}, text='', headerInJson=''}
+[I][2020-09-06 +8.0 11:16:07.057][20922, 21020][Connection][, , 0][onUserEvent() called with: evt = [HandshakeResultEvent{success=true, resCode=UInt16{0x0}, cost=71}]
+[I][2020-09-06 +8.0 11:16:07.059][20922, 21020][HandshakeConnection][, , 0][2. handshake success, start login
+[I][2020-09-06 +8.0 11:16:07.065][20922, 21020][Login][, , 0][login send success
+[I][2020-09-06 +8.0 11:16:07.066][20922, 21020][Connection][, , 0][receive first msg, cost since connected: 86, cost since last active: 80
+[I][2020-09-06 +8.0 11:16:07.078][20922, 21020][Login][, , 0][login response: InkeProtocol{mark=UInt8{9}, version=UInt16{0x3}, basic=UInt8{0}, cmd=UInt16{0x4004}, seq=UInt16{0x2}, uid=UInt32{0}, session=UInt32{10003}, rescode=UInt16{0x0}, bodyLength=UInt16{0x62}, headLen=UInt32{0}, text='{"bus_buf": [{"gid":"8bd6eb58ba18e61e3118f9a963410cfc","retcode":0}]}', headerInJson=''}
+[I][2020-09-06 +8.0 11:16:07.078][20922, 21020][Login][, , 0][login result, gid: 8bd6eb58ba18e61e3118f9a963410cfc, retCode: 0
+[I][2020-09-06 +8.0 11:16:07.078][20922, 21020][Connection][, , 0][onUserEvent() called with: evt = [LoginResultEvent{success=true, resCode=UInt16{0x0}, cost=20}]
+[I][2020-09-06 +8.0 11:16:07.080][20922, 21020][HandshakeConnection][, , 0][3. login success, prepared for business msg. Oh Ye!
+[I][2020-09-06 +8.0 11:16:07.104][20922, 21010][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 11:16:07.177][20922, 20945][ShuzilmManager][, , 0][oaid = NA
+[I][2020-09-06 +8.0 11:16:07.393][20922, 21094][MicroMsg.PaySdk.WXFactory][, , 0][createWXAPI, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 11:16:07.400][20922, 21094][MicroMsg.SDK.WXApiImplV10][, , 0][<init>, appId = wx49a8d3ff203a3e5d, checkSignature = false
+[I][2020-09-06 +8.0 11:16:07.401][20922, 21094][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:16:07.402][20922, 21094][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:16:07.422][20922, 21094][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:16:07.426][20922, 21094][MicroMsg.SDK.WXMsgImplComm][, , 0][ignore wechat app signature validation
+[I][2020-09-06 +8.0 11:16:07.426][20922, 21094][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 11:16:07.426][20922, 21094][MicroMsg.SDK.WXApiImplV10][, , 0][registerApp, appId = wx49a8d3ff203a3e5d
+[I][2020-09-06 +8.0 11:16:07.427][20922, 21094][MicroMsg.SDK.WXApiImplV10][, , 0][register app com.billion.qianxi
+[I][2020-09-06 +8.0 11:16:07.429][20922, 21094][MicroMsg.SDK.MMessage][, , 0][send mm message, intent=Intent { act=com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER (has extras) }, perm=com.tencent.mm.permission.MM_MESSAGE
+[I][2020-09-06 +8.0 11:16:07.437][20922, 20922][[push register v2] 注册极光推送结果: ][, , 0][{"dm_error":0,"err_code":0,"err_msg":"success"}
+[I][2020-09-06 +8.0 11:16:08.741][20922, 21142][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 11:16:08.896][20922, 21015][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@57a1504
+[I][2020-09-06 +8.0 11:16:08.908][20922, 21020][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=9}]
+[I][2020-09-06 +8.0 11:16:08.930][20922, 20922][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 11:16:08.931][20922, 20922][Qianxi][, , 0][Doing messgae LoginSuccessEvent register
+[D][2020-09-06 +8.0 11:16:08.946][20922, 20922][Qianxi][, , 0][Doing timer LoginSuccessEvent register
+[I][2020-09-06 +8.0 11:16:09.209][20922, 20922][Qianxi][, , 0][UserManager laodUser. uid 100298
+[I][2020-09-06 +8.0 11:16:09.211][20922, 20922][Qianxi][, , 0][UserManager laodUser. u {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 11:16:09.232][20922, 20922][Qianxi][, , 0][Doing messgae LoginSuccessEvent consume
+[D][2020-09-06 +8.0 11:16:09.241][20922, 20922][Qianxi][, , 0][Doing timer LoginSuccessEvent consume
+[E][2020-09-06 +8.0 11:16:09.484][20922, 20922][Qianxi][, , 0][Doing permission LoginSuccessEvent consume
+[W][2020-09-06 +8.0 11:16:09.546][20922, 20922][Qianxi][, , 0][Doing followLoad LoginSuccessEvent consume
+[I][2020-09-06 +8.0 11:16:09.547][20922, 20922][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 11:16:09.828][20922, 20922][Qianxi][, , 0][square load list start _offset:0
+[I][2020-09-06 +8.0 11:16:09.842][20922, 20922][IKLogUploadManager][, , 0][IKLogUploader is initialized.
+[D][2020-09-06 +8.0 11:16:09.857][20922, 20922][IKLogUploadManager][, , 0][querying log fetch task ...
+[I][2020-09-06 +8.0 11:16:09.953][20922, 21142][IKLogUploadManager][, , 0][query log fetch task successfully, not need to upload log file, status: 0.
+[I][2020-09-06 +8.0 11:16:11.784][20922, 20922][Qianxi][, , 0][发送心跳埋点 1
+[I][2020-09-06 +8.0 11:16:38.881][20922, 21142][IpManager][, , 0][更新 host: [47.95.165.165:6104]
+[I][2020-09-06 +8.0 11:16:38.897][20922, 21015][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@57a1504
+[I][2020-09-06 +8.0 11:16:38.918][20922, 21020][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=13}]
+[E][2020-09-06 +8.0 11:16:55.288][20922, 20922][Qianxi][, , 0][Doing0 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.289][20922, 20922][Qianxi][, , 0][Doing10000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.289][20922, 20922][Qianxi][, , 0][Doing20000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.289][20922, 20922][Qianxi][, , 0][Doing30000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.289][20922, 20922][Qianxi][, , 0][Doing40000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.290][20922, 20922][Qianxi][, , 0][Doing50000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.290][20922, 20922][Qianxi][, , 0][Doing60000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.290][20922, 20922][Qianxi][, , 0][Doing70000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.290][20922, 20922][Qianxi][, , 0][Doing80000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.290][20922, 20922][Qianxi][, , 0][Doing90000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.291][20922, 20922][Qianxi][, , 0][Doing100000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.291][20922, 20922][Qianxi][, , 0][Doing110000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.291][20922, 20922][Qianxi][, , 0][Doing120000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.291][20922, 20922][Qianxi][, , 0][Doing130000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.291][20922, 20922][Qianxi][, , 0][Doing140000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.292][20922, 20922][Qianxi][, , 0][Doing150000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.292][20922, 20922][Qianxi][, , 0][Doing160000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.292][20922, 20922][Qianxi][, , 0][Doing170000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.292][20922, 20922][Qianxi][, , 0][Doing180000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.292][20922, 20922][Qianxi][, , 0][Doing190000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.293][20922, 20922][Qianxi][, , 0][Doing200000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.293][20922, 20922][Qianxi][, , 0][Doing210000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.293][20922, 20922][Qianxi][, , 0][Doing220000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.293][20922, 20922][Qianxi][, , 0][Doing230000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.293][20922, 20922][Qianxi][, , 0][Doing240000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.294][20922, 20922][Qianxi][, , 0][Doing250000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.294][20922, 20922][Qianxi][, , 0][Doing260000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.294][20922, 20922][Qianxi][, , 0][Doing270000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.294][20922, 20922][Qianxi][, , 0][Doing280000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.294][20922, 20922][Qianxi][, , 0][Doing290000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.298][20922, 20922][Qianxi][, , 0][Doing300000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.301][20922, 20922][Qianxi][, , 0][Doing310000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.301][20922, 20922][Qianxi][, , 0][Doing320000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.301][20922, 20922][Qianxi][, , 0][Doing330000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.302][20922, 20922][Qianxi][, , 0][Doing340000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.302][20922, 20922][Qianxi][, , 0][Doing350000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.302][20922, 20922][Qianxi][, , 0][Doing360000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.302][20922, 20922][Qianxi][, , 0][Doing370000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.302][20922, 20922][Qianxi][, , 0][Doing380000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.302][20922, 20922][Qianxi][, , 0][Doing390000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.303][20922, 20922][Qianxi][, , 0][Doing400000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.303][20922, 20922][Qianxi][, , 0][Doing410000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.303][20922, 20922][Qianxi][, , 0][Doing420000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.303][20922, 20922][Qianxi][, , 0][Doing430000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.303][20922, 20922][Qianxi][, , 0][Doing440000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.304][20922, 20922][Qianxi][, , 0][Doing450000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.304][20922, 20922][Qianxi][, , 0][Doing460000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.304][20922, 20922][Qianxi][, , 0][Doing470000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.304][20922, 20922][Qianxi][, , 0][Doing480000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.304][20922, 20922][Qianxi][, , 0][Doing490000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.304][20922, 20922][Qianxi][, , 0][Doing500000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.305][20922, 20922][Qianxi][, , 0][Doing510000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.305][20922, 20922][Qianxi][, , 0][Doing520000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.305][20922, 20922][Qianxi][, , 0][Doing530000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.305][20922, 20922][Qianxi][, , 0][Doing540000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.305][20922, 20922][Qianxi][, , 0][Doing550000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.305][20922, 20922][Qianxi][, , 0][Doing560000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.306][20922, 20922][Qianxi][, , 0][Doing570000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.306][20922, 20922][Qianxi][, , 0][Doing580000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.306][20922, 20922][Qianxi][, , 0][Doing590000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.306][20922, 20922][Qianxi][, , 0][Doing600000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.306][20922, 20922][Qianxi][, , 0][Doing610000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.306][20922, 20922][Qianxi][, , 0][Doing620000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.307][20922, 20922][Qianxi][, , 0][Doing630000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.307][20922, 20922][Qianxi][, , 0][Doing640000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.307][20922, 20922][Qianxi][, , 0][Doing650000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.307][20922, 20922][Qianxi][, , 0][Doing660000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.307][20922, 20922][Qianxi][, , 0][Doing670000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.307][20922, 20922][Qianxi][, , 0][Doing680000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.308][20922, 20922][Qianxi][, , 0][Doing690000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.308][20922, 20922][Qianxi][, , 0][Doing700000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.308][20922, 20922][Qianxi][, , 0][Doing710000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.308][20922, 20922][Qianxi][, , 0][Doing720000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.309][20922, 20922][Qianxi][, , 0][Doing730000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.309][20922, 20922][Qianxi][, , 0][Doing740000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.309][20922, 20922][Qianxi][, , 0][Doing750000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.309][20922, 20922][Qianxi][, , 0][Doing760000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.309][20922, 20922][Qianxi][, , 0][Doing770000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.309][20922, 20922][Qianxi][, , 0][Doing780000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.310][20922, 20922][Qianxi][, , 0][Doing790000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.310][20922, 20922][Qianxi][, , 0][Doing800000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.310][20922, 20922][Qianxi][, , 0][Doing810000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.310][20922, 20922][Qianxi][, , 0][Doing820000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.311][20922, 20922][Qianxi][, , 0][Doing830000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.311][20922, 20922][Qianxi][, , 0][Doing840000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.311][20922, 20922][Qianxi][, , 0][Doing850000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.311][20922, 20922][Qianxi][, , 0][Doing860000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.311][20922, 20922][Qianxi][, , 0][Doing870000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.312][20922, 20922][Qianxi][, , 0][Doing880000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.312][20922, 20922][Qianxi][, , 0][Doing890000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.312][20922, 20922][Qianxi][, , 0][Doing900000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.312][20922, 20922][Qianxi][, , 0][Doing910000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.312][20922, 20922][Qianxi][, , 0][Doing920000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.312][20922, 20922][Qianxi][, , 0][Doing930000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.313][20922, 20922][Qianxi][, , 0][Doing940000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.313][20922, 20922][Qianxi][, , 0][Doing950000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.313][20922, 20922][Qianxi][, , 0][Doing960000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.313][20922, 20922][Qianxi][, , 0][Doing970000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.313][20922, 20922][Qianxi][, , 0][Doing980000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[E][2020-09-06 +8.0 11:16:55.313][20922, 20922][Qianxi][, , 0][Doing990000 尝试输入中文字的日志尝试，这里边都是中文字，会乱码吗？哎，优化啊，看来又得熬两宿来学了，好难哦~
+[I][2020-09-06 +8.0 11:16:56.152][20922, 20922][Qianxi][, , 0][UserManager laodUser.
+[I][2020-09-06 +8.0 11:16:56.446][20922, 20922][Qianxi][, , 0][UserManager laodUser. uid 100298
+[I][2020-09-06 +8.0 11:16:56.447][20922, 20922][Qianxi][, , 0][UserManager laodUser. u {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 11:16:56.831][20922, 20922][Qianxi][, , 0][load follow live start.
+[I][2020-09-06 +8.0 11:16:57.067][20922, 20922][Qianxi][, , 0][square load list start _offset:0
+[W][2020-09-06 +8.0 11:16:57.090][20922, 20922][IKLogUploadManager][, , 0][IKLogUploader has been initialized, reject to re-initialize.
+[D][2020-09-06 +8.0 11:16:57.120][20922, 20922][IKLogUploadManager][, , 0][querying log fetch task ...
+[I][2020-09-06 +8.0 11:16:57.152][20922, 21142][IKLogUploadManager][, , 0][query log fetch task successfully, not need to upload log file, status: 0.
+[I][2020-09-06 +8.0 11:16:59.550][20922, 20922][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 11:16:59.552][20922, 20922][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 11:16:59.858][20922, 20922][Qianxi][, , 0][updateUserInfo user={"albums": null,"like_tags": null,"num_mutuals": 2,"height": 0,consume": 0, "new_user": 0, "num_followers": 3,"num_followings": 3,"education": ,"gender": 1,"gmutex": 0,"id": 100298,"inke_verify": 0,"register_at": 1617000547,"verified": 0,"updated": 1,"app_name": "qianxi","birth": "","description": "","emotion": "保密","hometown": "","location": "","nick": "硕硕298","portrait": "http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","live_cover": null,"profession": "","third_platform": null,"verified_reason": "","verify_extra": {"show": false,"tips": "10级开启多头像特权","uid": "100298","new_portrait_album": [{"status": 1,"type": "portrait"}],"portrait_album": [{"status": 1,"type": "portrait"}]}}
+[I][2020-09-06 +8.0 11:16:59.859][20922, 20922][Qianxi][, , 0][UserManager saveUser. {"id":100298,"nick":"硕硕298","description":"","portrait":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg","videos":[],"is_private_friend":true,"gender":1,"profession":"","education":"","birth":"","hometown":"","location":"","verified_reason":"","emotion":"保密","inke_verify":0,"verified":0,"gmutex":0,"level":1,"zlevel":5,"zlevel_detail":{"uid":100298,"level":5,"exp":2072510,"dis":827490},"verify_extra":{"tips":"10级开启多头像特权","uid":"100298","show":false,"portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}],"new_portrait_album":[{"status":1,"type":"portrait","img":"http://img.1yimi.cn/MTU3NzM0Mjc0NjExMSM4MDIjanBn.jpg"}]},"num_followers":3,"num_followings":3,"num_mutuals":2,"noble":{"level":0,"icon":""},"ext":{},"register_at":1617000547,"app_name":"qianxi","updated":1}
+[I][2020-09-06 +8.0 11:17:00.540][20922, 20922][IKLogUploadManager][, , 0][register shake successfully.
+[I][2020-09-06 +8.0 11:17:08.897][20922, 21015][Heartbeat][, , 0][发送心跳, conn:com.inke.conn.conn.HandshakeConnection@57a1504
+[I][2020-09-06 +8.0 11:17:08.933][20922, 21020][Connection][, , 0][onUserEvent() called with: evt = [HeartbeatEvent{rtt=27}]
+[I][2020-09-06 +8.0 11:17:09.007][20922, 21142][IpManager][, , 0][更新 host: [47.95.165.165:6104]
